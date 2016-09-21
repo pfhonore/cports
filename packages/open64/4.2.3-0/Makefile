@@ -21,7 +21,7 @@ DEPENDS+=	"bison/2.4.3 --build-env"
 DEPENDS+=	"gettext/0.19.7 --build-env --lib"
 DEPENDS+=	"libiconv/1.14 --build-env --lib"
 DEPENDS+=	"autoconf/2.69 --build-env"
-DEPENDS+=	"automake/1.11 --build-env"
+DEPENDS+=	"automake/1.15 --build-env"
 
 DESCRIPTION=	"Open64 is the final result of research contributions from a number"
 DESCRIPTION+=	"of compiler groups around the world. Formerly known as Pro64, Open64"

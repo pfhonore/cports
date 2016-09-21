@@ -18,7 +18,7 @@ DEPENDS+=	"libtool/2.4.6 --build-env"
 DEPENDS+=	"bison/3.0.4 --build-env"
 DEPENDS+=	"gawk/4.1.3 --build-env"
 DEPENDS+=	"m4/1.4.17 --build-env"
-DEPENDS+=	"automake/1.11 --build-env"
+DEPENDS+=	"automake/1.15 --build-env"
 DEPENDS+=	"openssl/1.0.0a --build-env"
 
 do-build:

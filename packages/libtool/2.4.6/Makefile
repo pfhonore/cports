@@ -16,7 +16,7 @@ EXTRAVERSION=
 DEPENDS+=       "m4/1.4.17 --build-env"
 ifndef BOOTSTRAP
 DEPENDS+=       "gawk/4.1.3 --build-env"
-DEPENDS+=       "automake/1.11 --build-env"
+DEPENDS+=       "automake/1.15 --build-env"
 
 ENVIRONMENT+=   AUTOMAKE=$(PREFIX_automake)/bin/automake
 

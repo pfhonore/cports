@@ -12,7 +12,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 
 DEPENDS+=	"maq/0.7.1 --build-env --run-env"
 DEPENDS+=	"autoconf/2.69 --build-env"
-DEPENDS+=	"automake/1.11 --build-env"
+DEPENDS+=	"automake/1.15 --build-env"
 
 PKGSUBDIR=	$(DISTNAME)
 

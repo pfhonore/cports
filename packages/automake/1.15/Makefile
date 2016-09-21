@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=	automake
-VERSION=	1.11
+VERSION=	1.15
 LIBTOOLVERSION=	2.2.10
 CATEGORIES=	devel
 HOMEPAGE=	http://www.gnu.org/software/automake/automake.html

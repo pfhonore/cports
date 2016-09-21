@@ -15,7 +15,7 @@ DEPENDS+="freetype/2.4.2 --build-env --lib"
 DEPENDS+="poppler/0.14.1 --build-env --lib"
 DEPENDS+="libpng/1.2.42 --build-env --lib"
 DEPENDS+="autoconf/2.69 --build-env"
-DEPENDS+="automake/1.11 --build-env"
+DEPENDS+="automake/1.15 --build-env"
 
 DESCRIPTION=	"Pango is a library for laying out and rendering of text, with an emphasis on internationalization."
 

@@ -13,7 +13,7 @@ EXTRAVERSION=
 
 
 DEPENDS+=	"autoconf/2.69 --build-env"
-DEPENDS+=	"automake/1.11 --build-env"
+DEPENDS+=	"automake/1.15 --build-env"
 DEPENDS+=	""
 
 DESCRIPTION=	"LessTif is the Hungry Programmers' version of OSF/Motif®. It aims to be source compatible meaning that the same source code should compile with both and work exactly the same!"
