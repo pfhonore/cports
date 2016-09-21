@@ -11,7 +11,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 
 EXTRAVERSION=
 
-DEPENDS=	"autoconf/2.67 --build-env"
+DEPENDS=	"autoconf/2.69 --build-env"
 DEPENDS+=	"automake/1.8.5 --build-env"
 
 PATCH_STRIP=-p1

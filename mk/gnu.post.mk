@@ -1060,7 +1060,7 @@ endif
 # Use autoconf to rebuild configure-script
 #
 do-autoreconf:
-	$(QUIET) $(MODULE_ADD) $(BUILD_DEPENDS) autoconf/2.67$(COMPILER_TAG); \
+	$(QUIET) $(MODULE_ADD) $(BUILD_DEPENDS) autoconf/2.69$(COMPILER_TAG); \
 	cd $(WRKSRC) && autoreconf
 
 #

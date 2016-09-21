@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=       autoconf
-VERSION=        2.67
+VERSION=        2.69
 CATEGORIES=     devel
 HOMEPAGE=       http://www.gnu.org/software/autoconf/autoconf.html
 MASTER_SITES=   $(MASTER_SITE_GNU:=$(DISTNAME)/)

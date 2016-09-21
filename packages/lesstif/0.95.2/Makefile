@@ -12,7 +12,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.bz2
 EXTRAVERSION=
 
 
-DEPENDS+=	"autoconf/2.67 --build-env"
+DEPENDS+=	"autoconf/2.69 --build-env"
 DEPENDS+=	"automake/1.11 --build-env"
 DEPENDS+=	""
 
