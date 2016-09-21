@@ -9,7 +9,7 @@ MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 
-DEPENDS=	"gawk/3.1.8 --build-env"
+DEPENDS=	"gawk/4.1.3 --build-env"
 DEPENDS+=	"gettext/0.19.7 --lib --build-env"
 DEPENDS+=	"libiconv/1.14 --lib --build-env"
 #DEPENDS+=	"glib --lib --build-env"

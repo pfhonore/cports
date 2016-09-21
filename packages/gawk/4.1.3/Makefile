@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=       gawk
-VERSION=        3.1.8
+VERSION=        4.1.3
 CATEGORIES=     system
 HOMEPAGE=       http://www.gnu.org/software/gawk/gawk.html
 MASTER_SITES=   $(MASTER_SITE_GNU:=$(DISTNAME)/)

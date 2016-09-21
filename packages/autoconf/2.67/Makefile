@@ -9,7 +9,7 @@ MAINTAINER=     jtang@tchpc.tcd.ie
 GNU_CONFIGURE=  yes
 
 DEPENDS+=       "m4/1.4.17 --build-env"
-DEPENDS+=       "gawk/3.1.8 --build-env"
+DEPENDS+=       "gawk/4.1.3 --build-env"
 #DEPENDS+=       "perl/5.12.1 --build-env"
 
 CONFIGURE_ENV+= M4=$(PREFIX_m4)/bin/m4

@@ -24,7 +24,7 @@ PKGNAME=	$(DISTNAME)$(VERSION)-all-source-installer
 
 DEPENDS+=	"openssl/1.0.0a --lib"
 DEPENDS+=	"zlib/1.2.5 --lib"
-DEPENDS+=	"gawk/3.1.8 --build-env"
+DEPENDS+=	"gawk/4.1.3 --build-env"
 DEPENDS+=	"gtar/1.23 --build-env"
 DEPENDS+=	"sed/4.2.1 --build-env"
 

@@ -11,7 +11,7 @@ MAINTAINER=     jtang@tchpc.tcd.ie
 GNU_CONFIGURE=  yes
 
 #ifndef BOOTSTRAP
-#DEPENDS=        "gawk/3.1.8 --build-env"
+#DEPENDS=        "gawk/4.1.3 --build-env"
 #CONFIGURE_ENV+= AWK=$(PREFIX_gawk)/bin/gawk
 #endif
 CONFIGURE_ENV+= AWK=$(strip $(shell which awk))
