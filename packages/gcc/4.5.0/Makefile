@@ -16,7 +16,7 @@ EXTRAVERSION=
 
 DEPENDS += "gmp/6.1.0 --build-env --lib"
 DEPENDS += "mpfr/3.1.4 --build-env --lib"
-DEPENDS += "mpc/0.8.2 --build-env --lib"
+DEPENDS += "mpc/1.0.3 --build-env --lib"
 DEPENDS += "libelf/0.8.13 --build-env --lib"
 DEPENDS += "polylib/5.22.5 --build-env --lib"
 DEPENDS += "cloog/0.14.1 --build-env --lib" 

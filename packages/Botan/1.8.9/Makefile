@@ -11,7 +11,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tgz
 
 DEPENDS += "boost/1_44_0_openmpi_1.4.2 --lib --build-env"
 DEPENDS += "zlib/1.2.5 --lib --build-env"
-DEPENDS += "mpc/0.8.2 --lib --build-env"
+DEPENDS += "mpc/1.0.3 --lib --build-env"
 DEPENDS += "openssl/1.0.2h --lib --build-env"
 DEPENDS += "bzip2/1.0.5 --lib --build-env"
 DEPENDS += "gmp/6.1.0 --lib --build-env"

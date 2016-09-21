@@ -3,7 +3,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=	mpc
-VERSION=	0.8.2
+VERSION=	1.0.3
 CATEGORIES=	system
 HOMEPAGE=	http://www.multiprecision.org/
 MASTER_SITES=	http://www.multiprecision.org/mpc/download
