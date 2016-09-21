@@ -11,7 +11,7 @@ MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 
-DEPENDS += "polylib/5.22.5 --build-env gmp/4.3.2 --build-env"
+DEPENDS += "polylib/5.22.5 --build-env gmp/6.1.0 --build-env"
 
 EXTRAVERSION=
 

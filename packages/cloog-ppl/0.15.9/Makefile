@@ -14,7 +14,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 EXTRAVERSION=
 
 DEPENDS+= "ppl/0.10.2 --build-env --lib"
-DEPENDS+= "gmp/4.3.2 --build-env --lib"
+DEPENDS+= "gmp/6.1.0 --build-env --lib"
 DEPENDS+= "polylib/5.22.5 --build-env --lib"
 
 CONFIGURE_ARGS += --with-polylib-dir=$(PREFIX_polylib)

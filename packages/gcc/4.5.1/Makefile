@@ -14,7 +14,7 @@ WRKSRC=$(WORKDIR)/$(PKGSUBDIR)-tmp/
 
 EXTRAVERSION=
 
-DEPENDS += "gmp/4.3.2 --build-env --lib"
+DEPENDS += "gmp/6.1.0 --build-env --lib"
 DEPENDS += "mpfr/3.0.0 --build-env --lib"
 DEPENDS += "mpc/0.8.2 --build-env --lib"
 DEPENDS += "libelf/0.8.13 --build-env --lib"

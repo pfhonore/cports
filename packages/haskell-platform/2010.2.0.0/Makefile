@@ -16,7 +16,7 @@ DEPENDS+=	"ghc/6.12.3-x86_64 --build-env --run-env --lib"
 else
 DEPENDS+=	"ghc/6.12.3-i386 --build-env --run-env --lib"
 endif
-DEPENDS+=	"gmp/4.3.2 --build-env --lib --run-env"
+DEPENDS+=	"gmp/6.1.0 --build-env --lib --run-env"
 DEPENDS+=	"ncurses/6.0 --build-env --lib --run-env"
 DEPENDS+=	"zlib/1.2.5 --build-env --lib --run-env"
 DEPENDS+=	"gettext/0.19.7 --build-env --lib --run-env"

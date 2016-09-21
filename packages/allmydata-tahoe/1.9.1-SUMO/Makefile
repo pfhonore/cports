@@ -11,7 +11,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.bz2
 
 DEPENDS="Python/2.6.5 --build-env Python/2.6.5 --run-env"
 DEPENDS+="openssl/0.9.8o --lib --build-env"
-DEPENDS+="gmp/4.3.2 --lib --build-env"
+DEPENDS+="gmp/6.1.0 --lib --build-env"
 
 DESCRIPTION=    "Tahoe-LAFS (Least Authority File System) is a Free Software/Open Source"
 DESCRIPTION+=    "decentralized data store. It distributes your filesystem across multiple"

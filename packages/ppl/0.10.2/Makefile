@@ -13,7 +13,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 
 EXTRAVERSION=
 
-DEPENDS+= "gmp/4.3.2 --build-env --lib"
+DEPENDS+= "gmp/6.1.0 --build-env --lib"
 
 DESCRIPTION=	"The Parma Polyhedra Library (PPL) provides numerical abstractions  especially targeted at applications in the field of analysis and verification of complex systems."
 
