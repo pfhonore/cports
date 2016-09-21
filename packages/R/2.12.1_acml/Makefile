@@ -13,7 +13,7 @@ EXTRAVERSION= _acml
 
 DEPENDS+="acml-nosmp/4-4-0 --lib --build-env"
 DEPENDS+="openmpi/1.4.3 --build-env openmpi/1.4.3 --run-env" 
-DEPENDS+="ncurses/5.7 --lib --build-env"
+DEPENDS+="ncurses/6.0 --lib --build-env"
 DEPENDS+="readline/6.1 --lib --build-env"
 DEPENDS+="pcre/8.10 --lib --build-env"
 DEPENDS+="zlib/1.2.5 --lib --build-env"

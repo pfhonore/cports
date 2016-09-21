@@ -16,7 +16,7 @@ DEPENDS+=	"libiconv/1.13 --lib --build-env"
 #DEPENDS+=	"gtk --lib --build-env"
 #DEPENDS+=	"gnome-libs --lib --build-env"
 DEPENDS+=	"texinfo/4.13 --build-env"
-DEPENDS+=	"ncurses/5.7 --lib --build-env"
+DEPENDS+=	"ncurses/6.0 --lib --build-env"
 DEPENDS+=	"readline/6.1 --lib --build-env"
 DEPENDS+=	"libtool/2.2.10 --build-env"
 

@@ -16,7 +16,7 @@ DESCRIPTION=	"Lua is a powerful, fast, lightweight, embeddable scripting languag
 ALL_TARGET=linux
 
 DEPENDS+=	"readline/6.1 --lib --build-env"
-DEPENDS+=	"ncurses/5.7 --lib --build-env"
+DEPENDS+=	"ncurses/6.0 --lib --build-env"
 
 do-build:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \

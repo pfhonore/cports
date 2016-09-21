@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=	ncurses
-VERSION=	5.7
+VERSION=	6.0
 CATEGORIES=	lib
 HOMEPAGE=	http://www.gnu.org/software/ncurses/
 MASTER_SITES=	$(MASTER_SITE_GNU:=$(DISTNAME)/)

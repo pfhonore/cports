@@ -14,7 +14,7 @@ DONT_CREATE_METAINFO=yes
 #DEPENDS+=	"gtar --build-env"
 
 do-build:
-	(cd ../../ncurses/5.7/ && make install)
+	(cd ../../ncurses/6.0/ && make install)
 	(cd ../../m4/1.4.15/ && make BOOTSTRAP=yes build)
 	(cd ../../texinfo/4.13/ && make BOOTSTRAP=yes build)
 	(cd ../../gmake/3.81/ && make BOOTSTRAP=yes build)
@@ -33,7 +33,7 @@ do-install:
 	(cd ../../libtool/2.2.10/ && make BOOTSTRAP=yes install)
 
 do-cleaz:
-	(cd ../../ncurses/5.7/ && make clean)
+	(cd ../../ncurses/6.0/ && make clean)
 	(cd ../../m4/1.4.15/ && make clean)
 	(cd ../../texinfo/4.13/ && make clean)
 	(cd ../../gmake/3.81/ && make clean)

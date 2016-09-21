@@ -11,7 +11,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 
 EXTRAVERSION=
 
-DEPENDS+=	"ncurses/5.7 --lib --build-env"
+DEPENDS+=	"ncurses/6.0 --lib --build-env"
 DEPENDS+=	"libevent/1.4.14b --lib --build-env"
 
 DESCRIPTION=	"tmux is a terminal multiplexer"
