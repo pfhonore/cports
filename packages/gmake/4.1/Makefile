@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=	gmake
-VERSION=	3.81
+VERSION=	4.1
 PKGNAME=	make-$(VERSION)
 CATEGORIES=	devel
 HOMEPAGE=	http://www.gnu.org/software/make/make.html

@@ -11,7 +11,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.bz2
 
 EXTRAVERSION?=
 
-DEPENDS+= "gmake/3.81 --build-env"
+DEPENDS+= "gmake/4.1 --build-env"
 
 DESCRIPTION=  "Nmap (\"Network Mapper\") is a free and open source (license) utility for network exploration or security auditing. "
 
