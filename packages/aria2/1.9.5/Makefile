@@ -14,7 +14,7 @@ EXTRAVERSION=
 DEPENDS+="sqlite/3.6.23.1 --lib"
 DEPENDS+="libxml2/2.7.7 --lib"
 DEPENDS+="c-ares/1.7.3 --lib"
-DEPENDS+="openssl/1.0.0a --lib"
+DEPENDS+="openssl/1.0.2h --lib"
 
 CONFIGURE_ARGS+=	--with-openssl --without-gnutls 
 

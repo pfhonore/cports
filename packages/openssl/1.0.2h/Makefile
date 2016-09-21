@@ -1,11 +1,12 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=	openssl
-VERSION=	0.9.8o
+VERSION=	1.0.2h
 CATEGORIES=	network security
 HOMEPAGE=	http://www.openssl.org/
-MASTER_SITES=	ftp://ftp.sunet.se/pub/security/tools/net/$(DISTNAME)/ 
-MASTER_SITES+=	ftp://ftp.chl.chalmers.se/pub/unix/security/$(DISTNAME)/
+MASTER_SITES=	http://ftp.heanet.ie/pub/ftp.openssl.org/source/
+MASTER_SITES+=	ftp://ftp.sunet.se/pub/security/tools/net/$(DISTNAME)/source/
+MASTER_SITES+=	ftp://ftp.chl.chalmers.se/pub/unix/security/$(DISTNAME)/source/
 MASTER_SITES+=	ftp://ftp.openssl.org/source/
 MAINTAINER=	jtang@tchpc.tcd.ie
 HAS_CONFIGURE=	yes

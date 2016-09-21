@@ -11,7 +11,7 @@ USE_LIBTOOL=	yes
 
 # not including krb4 and krb5 support (krb4 and heimdal)
 DEPENDS+=	"db/4.8.26 --lib"
-DEPENDS+=	"openssl/1.0.0a --lib"
+DEPENDS+=	"openssl/1.0.2h --lib"
 
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ARGS+=--with-plugindir=$(PROGRAM_PREFIX)/lib/sasl

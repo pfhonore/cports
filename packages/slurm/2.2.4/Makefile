@@ -11,7 +11,7 @@ GNU_CONFIGURE=	yes
 
 # most of these are optional and the user can disable/enable as required
 DEPENDS+=	"readline/6.1 --lib --build-env"
-DEPENDS+=	"openssl/1.0.0a --lib --build-env"
+DEPENDS+=	"openssl/1.0.2h --lib --build-env"
 DEPENDS+=	"Python/2.6.5 --lib --build-env"
 
 CONFIGURE_ARGS+= --with-ssl=$(PREFIX_openssl)

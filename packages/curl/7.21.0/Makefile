@@ -10,7 +10,7 @@ DISTFILES=	$(DISTNAME)-$(VERSION).tar.bz2
 GNU_CONFIGURE=  yes
 
 # might want to add c-ares and ldap at some point
-DEPENDS+= "openssl/1.0.0a --lib"
+DEPENDS+= "openssl/1.0.2h --lib"
 DEPENDS+= "zlib/1.2.5 --lib"
 DEPENDS+= "libiconv/1.14 --lib"
 

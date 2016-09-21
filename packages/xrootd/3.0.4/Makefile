@@ -12,7 +12,7 @@ DESCRIPTION=	"The cctools package contains Parrot, Chirp, Makeflow, Work Queue, 
 
 DEPENDS+=	"zlib/1.2.5 --lib --build-env"
 DEPENDS+=	"libxml2/2.7.7 --lib --build-env"
-DEPENDS+=	"openssl/1.0.0a --lib --build-env"
+DEPENDS+=	"openssl/1.0.2h --lib --build-env"
 
 MAKEFILE=	GNUmakefile
 

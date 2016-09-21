@@ -9,7 +9,7 @@ MAINTAINER=     jtang@tchpc.tcd.ie
 DISTFILES=	$(DISTNAME)-$(VERSION).tar.gz
 GNU_CONFIGURE=  yes
 
-DEPENDS+= "openssl/1.0.0a --lib --build-env"
+DEPENDS+= "openssl/1.0.2h --lib --build-env"
 DEPENDS+= "zlib/1.2.5 --lib --build-env"
 DEPENDS+= "libiconv/1.14 --lib --build-env"
 DEPENDS+= "tcl/8.5.8 --build-env --run-env"

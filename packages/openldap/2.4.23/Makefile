@@ -11,7 +11,7 @@ GNU_CONFIGURE=	yes
 
 #DEPENDS+=	"krb4 --lib"
 #DEPENDS+=	"heimdal --lib"
-DEPENDS+=	"openssl/1.0.0a --lib"
+DEPENDS+=	"openssl/1.0.2h --lib"
 DEPENDS+=	"cyrus-sasl/2.1.23 --lib"
 DEPENDS+=	"db/4.8.26 --lib"
 

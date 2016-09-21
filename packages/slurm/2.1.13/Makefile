@@ -11,7 +11,7 @@ GNU_CONFIGURE=	yes
 
 # most of these are optional and the user can disable/enable as required
 DEPENDS+=	"readline/6.1 --lib"
-DEPENDS+=	"openssl/1.0.0a --lib"
+DEPENDS+=	"openssl/1.0.2h --lib"
 
 CONFIGURE_ARGS+= --with-ssl=$(PREFIX_openssl)
 
