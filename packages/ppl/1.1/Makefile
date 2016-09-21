@@ -3,7 +3,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=	ppl
-VERSION=	0.10.2
+VERSION=	1.1
 CATEGORIES=	system
 HOMEPAGE=	http://bugseng.com/products/ppl
 MASTER_SITES=	http://bugseng.com/products/ppl/download/ftp/releases/$(VERSION)

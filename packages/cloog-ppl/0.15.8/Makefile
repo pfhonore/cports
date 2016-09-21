@@ -13,7 +13,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 
 EXTRAVERSION=
 
-DEPENDS+= "ppl/0.10.2 --build-env"
+DEPENDS+= "ppl/1.1 --build-env"
 
 DESCRIPTION=	"CLooG is a software which generates loops for scanning Z-polyhedra."
 
