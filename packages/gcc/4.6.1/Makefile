@@ -19,7 +19,7 @@ DEPENDS += "mpfr/3.1.4 --build-env --lib"
 DEPENDS += "mpc/1.0.3 --build-env --lib"
 DEPENDS += "libelf/0.8.13 --build-env --lib"
 DEPENDS += "polylib/5.22.5 --build-env --lib"
-DEPENDS += "cloog-ppl/0.15.9 --build-env --lib"
+DEPENDS += "cloog-ppl/0.16.1 --build-env --lib"
 DEPENDS += "ppl/1.1 --build-env --lib"
 
 CONFIGURE_ARGS += --enable-shared --enable-threads=posix --with-system-zlib
