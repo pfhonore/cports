@@ -12,7 +12,7 @@ GNU_CONFIGURE=	yes
 DEPENDS+=	"db/4.8.30 --lib --build-env"
 DEPENDS+=	"gawk/3.1.8 --build-env"
 DEPENDS+=	"gettext/0.18.1.1 --lib --build-env"
-DEPENDS+=	"libiconv/1.13 --lib --build-env"
+DEPENDS+=	"libiconv/1.14 --lib --build-env"
 DEPENDS+=	"zlib/1.2.5 --lib --build-env"
 
 DESCRIPTION=	"GLib provides many useful data types, macros,"

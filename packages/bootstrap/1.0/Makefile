@@ -19,7 +19,7 @@ do-build:
 	(cd ../../texinfo/6.1/ && make BOOTSTRAP=yes build)
 	(cd ../../gmake/4.1/ && make BOOTSTRAP=yes build)
 	(cd ../../wget/1.17.1/ && make BOOTSTRAP=yes build)
-	(cd ../../libiconv/1.13/ && make BOOTSTRAP=yes build)
+	(cd ../../libiconv/1.14/ && make BOOTSTRAP=yes build)
 	(cd ../../gettext/0.18.1.1/ && make BOOTSTRAP=yes build)
 	(cd ../../libtool/2.2.10/ && make BOOTSTRAP=yes build)
 
@@ -28,7 +28,7 @@ do-install:
 	(cd ../../texinfo/6.1/ && make BOOTSTRAP=yes install)
 	(cd ../../gmake/4.1/ && make BOOTSTRAP=yes install)
 	(cd ../../wget/1.17.1/ && make BOOTSTRAP=yes install)
-	(cd ../../libiconv/1.13/ && make BOOTSTRAP=yes install)
+	(cd ../../libiconv/1.14/ && make BOOTSTRAP=yes install)
 	(cd ../../gettext/0.18.1.1/ && make BOOTSTRAP=yes install)
 	(cd ../../libtool/2.2.10/ && make BOOTSTRAP=yes install)
 
@@ -38,7 +38,7 @@ do-cleaz:
 	(cd ../../texinfo/6.1/ && make clean)
 	(cd ../../gmake/4.1/ && make clean)
 	(cd ../../wget/1.17.1/ && make clean)
-	(cd ../../libiconv/1.13/ && make clean)
+	(cd ../../libiconv/1.14/ && make clean)
 	(cd ../../gettext/0.18.1.1/ && make clean)
 	(cd ../../libtool/2.2.10/ && make clean)
 

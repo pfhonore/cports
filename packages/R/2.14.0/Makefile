@@ -47,7 +47,7 @@ DEPENDS+="bzip2/1.0.5 --lib --build-env"
 DEPENDS+="libpng/1.5.6 --lib --build-env"
 DEPENDS+="libjpeg/8b --lib --build-env"
 DEPENDS+="libtiff/3.9.4 --lib --build-env"
-DEPENDS+="libiconv/1.13 --lib --build-env"
+DEPENDS+="libiconv/1.14 --lib --build-env"
 DEPENDS+="gettext/0.18.1.1 --lib --build-env"
 DEPENDS+="cairo/1.8.10 --lib --build-env"
 
