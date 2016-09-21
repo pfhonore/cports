@@ -1,16 +1,16 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=       bison
-VERSION=        2.4.2
+VERSION=        3.0.4
 CATEGORIES=     devel
 HOMEPAGE=       http://www.gnu.org/software/bison/bison.html
 MASTER_SITES=   $(MASTER_SITE_GNU:=$(DISTNAME)/)
 MAINTAINER=     jtang@tchpc.tcd.ie
 GNU_CONFIGURE=  yes
 
+DEPENDS+=	"m4/1.4.17 --build-env"
 ifndef BOOTSTRAP
 DEPENDS=        "gettext/0.19.7 --lib --build-env"
-DEPENDS+=	"m4/1.4.17 --build-env"
 CONFIGURE_ENV+= LIBS=-lintl
 else
 CONFIGURE_ARGS= --with-included-gettext

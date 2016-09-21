@@ -10,7 +10,7 @@ MASTER_SITES=	$(MASTER_SITE_GNU:=$(DISTNAME)/)
 MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 
-DEPENDS=	"bison/2.4.2 --build-env"
+DEPENDS=	"bison/3.0.4 --build-env"
 DEPENDS+=	"netpbm/10.35.77 --build-env --run-env"
 
 DESCRIPTION=	"Groff (GNU Troff) is a document processor which reads plain"

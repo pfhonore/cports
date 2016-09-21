@@ -12,7 +12,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 EXTRAVERSION?=
 
 DEPENDS+= "flex/2.5.35 --build-env"
-DEPENDS+= "bison/2.4.2 --build-env"
+DEPENDS+= "bison/3.0.4 --build-env"
 
 DESCRIPTION=  "A portable C/C++ library for network traffic capture."
 

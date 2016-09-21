@@ -11,7 +11,7 @@ MASTER_SITES=	http://downloads.sourceforge.net/project/$(DISTNAME)/$(DISTNAME)/$
 MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 
-DEPENDS=	"bison/2.4.2 --build-env"
+DEPENDS=	"bison/3.0.4 --build-env"
 DEPENDS+=	"coreutils/8.5 --build-env"
 DEPENDS+=	"texinfo/6.1 --build-env"
 
