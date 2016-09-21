@@ -11,7 +11,7 @@ DONT_CREATE_METAINFO=yes
 
 DEPENDS+=	"texinfo/6.1 --build-env"
 DEPENDS+=	"gmake/4.1 --build-env"
-DEPENDS+=	"wget/1.9.1 --build-env"
+DEPENDS+=	"wget/1.17.1 --build-env"
 DEPENDS+=	"libiconv/1.13 --lib --build-env"
 DEPENDS+=	"gettext/0.18.1.1 --lib --build-env"
 DEPENDS+=	"libtool/2.2.10 --build-env"
@@ -23,7 +23,7 @@ DEPENDS+=	"openssl/1.0.0a --build-env"
 do-build:
 	(cd ../../texinfo/6.1/ && make build)
 	(cd ../../gmake/4.1/ && make build)
-	(cd ../../wget/1.9.1/ && make build)
+	(cd ../../wget/1.17.1/ && make build)
 	(cd ../../libiconv/1.13/ && make build)
 	(cd ../../gettext/0.18.1.1/ && make build)
 	(cd ../../libtool/2.2.10/ && make build)
@@ -31,7 +31,7 @@ do-build:
 do-install:
 	(cd ../../texinfo/6.1/ && make install)
 	(cd ../../gmake/4.1/ && make install)
-	(cd ../../wget/1.9.1/ && make install)
+	(cd ../../wget/1.17.1/ && make install)
 	(cd ../../libiconv/1.13/ && make install)
 	(cd ../../gettext/0.18.1.1/ && make install)
 	(cd ../../libtool/2.2.10/ && make install)
@@ -39,7 +39,7 @@ do-install:
 do-cleaz:
 	(cd ../../texinfo/6.1/ && make clean)
 	(cd ../../gmake/4.1/ && make clean)
-	(cd ../../wget/1.9.1/ && make clean)
+	(cd ../../wget/1.17.1/ && make clean)
 	(cd ../../libiconv/1.13/ && make clean)
 	(cd ../../gettext/0.18.1.1/ && make clean)
 	(cd ../../libtool/2.2.10/ && make clean)
