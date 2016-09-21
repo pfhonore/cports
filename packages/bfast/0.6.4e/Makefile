@@ -14,6 +14,6 @@ EXTRAVERSION=
 DESCRIPTION=	"Blat-like Fast Accurate Search Tool"
 
 DEPENDS+=       "bzip2/1.0.5 --lib --build-env"
-DEPENDS+=       "zlib/1.2.5 --lib --build-env"
+DEPENDS+=       "zlib/1.2.8 --lib --build-env"
 
 include ../../../mk/gnu.post.mk

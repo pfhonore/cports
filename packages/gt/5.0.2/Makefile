@@ -23,7 +23,7 @@ endif
 PKGNAME=	$(DISTNAME)$(VERSION)-all-source-installer
 
 DEPENDS+=	"openssl/1.0.2h --lib"
-DEPENDS+=	"zlib/1.2.5 --lib"
+DEPENDS+=	"zlib/1.2.8 --lib"
 DEPENDS+=	"gawk/4.1.3 --build-env"
 DEPENDS+=	"gtar/1.23 --build-env"
 DEPENDS+=	"sed/4.2.1 --build-env"

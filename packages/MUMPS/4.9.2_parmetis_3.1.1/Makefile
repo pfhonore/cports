@@ -21,7 +21,7 @@ DEPENDS+=	"openmpi/1.4.2 --build-env openmpi/1.4.2 --lib --run-env"
 DEPENDS+=	"atlas/3.8.3 --build-env atlas/3.8.3 --lib"
 DEPENDS+=	"scalapack/1.8.0_openmpi_1.4.2 --build-env --lib"
 DEPENDS+=	"ParMetis/3.1.1 --build-env --lib"
-DEPENDS+=	"zlib/1.2.5 --build-env --lib"
+DEPENDS+=	"zlib/1.2.8 --build-env --lib"
 
 HAS_CONFIGURE=	no
 

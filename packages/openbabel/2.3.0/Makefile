@@ -16,7 +16,7 @@ DEPENDS+=	"cmake/2.8.2 --build-env"
 DEPENDS+=	"libxml2/2.7.7 --build-env --lib"
 DEPENDS+=	"eigen/2.0.16 --build-env --lib"
 DEPENDS+=	"Python/2.6.5 --build-env --lib --run-env"
-DEPENDS+=	"zlib/1.2.5 --lib"
+DEPENDS+=	"zlib/1.2.8 --lib"
 
 DESCRIPTION=    "Open Babel is a chemical toolbox designed to speak the many languages"
 DESCRIPTION+=    "of chemical data. It's an open, collaborative project allowing anyone"

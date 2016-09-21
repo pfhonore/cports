@@ -14,7 +14,7 @@ DESCRIPTION=	"SECTOR: A Distributed Data Storage and Processing Platform"
 PKGSUBDIR=	$(DISTNAME)-sphere
 
 DEPENDS+=	"openssl/1.0.2h --build-env --lib"
-DEPENDS+=	"zlib/1.2.5 --build-env --lib"
+DEPENDS+=	"zlib/1.2.8 --build-env --lib"
 
 ALL_TARGET=	subdirs
 

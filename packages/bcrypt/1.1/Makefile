@@ -9,7 +9,7 @@ MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	no
 HAS_CONFIGURE=	no
 
-DEPENDS+=	"zlib/1.2.5 --build-env --lib"
+DEPENDS+=	"zlib/1.2.8 --build-env --lib"
 
 DESCRIPTION=	"Bcrypt is a cross platform file encryption utility."
 

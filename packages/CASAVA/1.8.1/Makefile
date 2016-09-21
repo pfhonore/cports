@@ -21,7 +21,7 @@ PKGSUBDIR=	$(DISTNAME)_v$(VERSION)
 DEPENDS+=       "cmake/2.8.2 --build-env"
 DEPENDS+=	"boost/1_44_0_openmpi_1.4.2 --build-env --lib"
 DEPENDS+=	"bzip2/1.0.6 --build-env --lib"
-DEPENDS+=	"zlib/1.2.5 --build-env --lib"
+DEPENDS+=	"zlib/1.2.8 --build-env --lib"
 DEPENDS+=	"libxml2/2.7.7  --build-env --lib"
 
 DESCRIPTION=    "CASAVA pipeline"

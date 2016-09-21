@@ -13,7 +13,7 @@ DEPENDS+=	"db/4.8.30 --lib --build-env"
 DEPENDS+=	"gawk/4.1.3 --build-env"
 DEPENDS+=	"gettext/0.19.7 --lib --build-env"
 DEPENDS+=	"libiconv/1.14 --lib --build-env"
-DEPENDS+=	"zlib/1.2.5 --lib --build-env"
+DEPENDS+=	"zlib/1.2.8 --lib --build-env"
 
 DESCRIPTION=	"GLib provides many useful data types, macros,"
 DESCRIPTION+=	"type conversions, string utilities and a lexical scanner."

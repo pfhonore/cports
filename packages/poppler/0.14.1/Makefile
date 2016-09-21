@@ -11,7 +11,7 @@ GNU_CONFIGURE=	yes
 #which wont work if you have /usr/lib/libdb1.*
 DEPENDS+="pixman/0.18.2 --build-env --lib"
 DEPENDS+="fontconfig/2.8.0 --build-env --lib"
-DEPENDS+="zlib/1.2.5 --build-env --lib"
+DEPENDS+="zlib/1.2.8 --build-env --lib"
 DEPENDS+="glib/2.24.1 --build-env --lib"
 DEPENDS+="curl/7.21.0 --build-env --lib"
 DEPENDS+="libpng/1.2.42 --build-env --lib"

@@ -17,7 +17,7 @@ DEPENDS+=	"libjpeg/8b --lib --build-env"
 DEPENDS+=	"libtiff/3.9.4 --lib --build-env"
 DEPENDS+=	"libpng/1.2.42 --lib --build-env"
 DEPENDS+=	"libxml2/2.7.7 --lib --build-env"
-DEPENDS+=	"zlib/1.2.5 --lib --build-env"
+DEPENDS+=	"zlib/1.2.8 --lib --build-env"
 DEPENDS+=	"ghostscript/8.71 --lib --build-env --run-env"
 
 

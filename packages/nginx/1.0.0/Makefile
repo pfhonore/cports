@@ -12,7 +12,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 EXTRAVERSION=
 
 DEPENDS+= "openssl/1.0.2h --lib --build-env"
-DEPENDS+= "zlib/1.2.5 --lib --build-env"
+DEPENDS+= "zlib/1.2.8 --lib --build-env"
 DEPENDS+= "pcre/8.10 --lib --build-env"
 DEPENDS+= "libatomic_ops/1.1 --lib --build-env"
 DEPENDS+= "libaio/0.3.109 --lib --build-env"

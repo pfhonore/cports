@@ -12,7 +12,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 EXTRAVERSION=
 
 DEPENDS+=	"pcre/8.10 --lib --build-env"
-DEPENDS+=	"zlib/1.2.5 --lib --build-env"
+DEPENDS+=	"zlib/1.2.8 --lib --build-env"
 
 ALL_TARGET=	swig
 

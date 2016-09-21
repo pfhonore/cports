@@ -11,7 +11,7 @@ USE_LIBTOOL=	yes
 
 # Should work for all platforms with gcc and shared libs with sonames
 
-DEPENDS+=	"zlib/1.2.5 --lib"
+DEPENDS+=	"zlib/1.2.8 --lib"
 
 DESCRIPTION=	"libpng is the official PNG reference library. It supports"
 DESCRIPTION+=	"almost all PNG features, is extensible, and has been"

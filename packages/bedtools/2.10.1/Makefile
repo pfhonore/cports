@@ -15,7 +15,7 @@ PKGSUBDIR=	BEDTools-Version-$(VERSION)
 
 DESCRIPTION=	"The BEDTools utilities allow one to address common genomics tasks such as finding feature overlaps and computing coverage."
 
-DEPENDS+=       "zlib/1.2.5 --lib --build-env"
+DEPENDS+=       "zlib/1.2.8 --lib --build-env"
 
 do-install:
 	$(INSTALL) -d $(PROGRAM_PREFIX)/

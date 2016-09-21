@@ -13,7 +13,7 @@ EXTRAVERSION=
 DESCRIPTION=	"Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. It accepts aligned RNA-Seq reads and assembles the alignments into a parsimonious set of transcripts. Cufflinks then estimates the relative abundances of these transcripts based on how many reads support each one."
 
 DEPENDS+=	"samtools/0.1.8 --lib --build-env --run-env"
-DEPENDS+=	"zlib/1.2.5 --lib --build-env"
+DEPENDS+=	"zlib/1.2.8 --lib --build-env"
 DEPENDS+=	"bowtie/0.12.7 --build-env --run-env"
 #DEPENDS+=	"Python/2.6.5 --build-env --run-env --lib"
 DEPENDS+=	"boost/1_41_0_openmpi_1.4.2 --build-env --lib"

@@ -12,7 +12,7 @@ GNU_CONFIGURE=	yes
 #DEPENDS+=	"google-perftools/1.6 --lib --build-env"
 #DEPENDS+=       "expat/2.0.1 --lib --build-env"
 DEPENDS+=	"libxslt/1.1.26 --lib --build-env"
-DEPENDS+=	"zlib/1.2.5 --lib --build-env"
+DEPENDS+=	"zlib/1.2.8 --lib --build-env"
 
 DESCRIPTION=	"xmlto is a front-end to an XSL toolchain. It chooses an appropriate stylesheet for the conversion you want and applies it using an external XSL-T processor. It also performs any necessary post-processing."
 

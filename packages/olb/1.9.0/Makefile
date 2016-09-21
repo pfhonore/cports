@@ -21,7 +21,7 @@ DEPENDS+=	"Python/2.6.5 --build-env --lib --run-env"
 DEPENDS+=	"ghostscript/8.71 --build-env --lib --run-env"
 DEPENDS+=       "gnuplot/4.4.0 --build-env --lib --run-env"
 DEPENDS+=	"bzip2/1.0.6 --build-env --lib --run-env"
-DEPENDS+=       "zlib/1.2.5 --build-env --lib"
+DEPENDS+=       "zlib/1.2.8 --build-env --lib"
 
 
 do-configure:

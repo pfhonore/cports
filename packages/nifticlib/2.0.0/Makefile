@@ -7,7 +7,7 @@ MASTER_SITES=	http://sourceforge.net/projects/niftilib/files/nifticlib/nifticlib
 MAINTAINER=	jtang@tchpc.tcd.ie
 HAS_CONFIGURE=	no
 
-DEPENDS+=	"zlib/1.2.5 --lib --build-env"
+DEPENDS+=	"zlib/1.2.8 --lib --build-env"
 DEPENDS+=	"cmake/2.8.3 --build-env"
 
 DESCRIPTION=	"niftilib is a collection of i/o routines for the nifti1 neuroimage data format."

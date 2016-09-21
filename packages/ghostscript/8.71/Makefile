@@ -24,7 +24,7 @@ INSTALL_FILES+=	ghostscript-fonts-other-$(FONTVERSION).tar.gz
 DEPENDS+=	"libpng/1.2.42 --lib"
 DEPENDS+=	"libtiff/3.9.4 --lib"
 DEPENDS+=	"libjpeg/6b --lib --build-env"
-DEPENDS+=	"zlib/1.2.5 --lib"
+DEPENDS+=	"zlib/1.2.8 --lib"
 DEPENDS+=	"coreutils/8.5 --build-env"
 
 #LINK_PATHS+=	$(PROGRAM_PREFIX)/lib

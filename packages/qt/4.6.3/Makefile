@@ -26,7 +26,7 @@ DEPENDS+=	"freetype/2.4.2 --build-env --lib"
 DEPENDS+=	"openssl/1.0.2h --build-env --lib"
 DEPENDS+=	"libiconv/1.14 --build-env --lib"
 DEPENDS+=	"gettext/0.19.7 --build-env --lib"
-DEPENDS+=	"zlib/1.2.5 --build-env --lib"
+DEPENDS+=	"zlib/1.2.8 --build-env --lib"
 DEPENDS+=	"glib/2.24.1 --build-env --lib"
 
 do-configure:

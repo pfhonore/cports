@@ -16,7 +16,7 @@ DESCRIPTION=	"Dindel is a program for calling small indels from short-read seque
 
 DEPENDS+=	"boost/1_41_0_openmpi_1.4.2 --build-env --lib"
 DEPENDS+=	"samtools/0.1.8	--build-env --lib"
-DEPENDS+=	"zlib/1.2.5	--build-env --lib"
+DEPENDS+=	"zlib/1.2.8	--build-env --lib"
 
 
 do-configure:

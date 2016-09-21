@@ -12,7 +12,7 @@ EXTRAVERSION=
 
 DESCRIPTION=	"BreakDancer is a Perl package that provides genome-wide detection of structural variants from next generation paired-end sequencing reads."
 DEPENDS+=	"samtools/0.1.8 --lib --build-env --run-env"
-DEPENDS+=	"zlib/1.2.5 --lib --build-env"
+DEPENDS+=	"zlib/1.2.8 --lib --build-env"
 
 do-build:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \

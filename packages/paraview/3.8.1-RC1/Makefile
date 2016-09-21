@@ -29,7 +29,7 @@ DEPENDS+=       "freetype/2.4.2 --build-env --lib"
 DEPENDS+=       "openssl/0.9.8o --build-env --lib"
 DEPENDS+=       "libiconv/1.14 --build-env --lib"
 DEPENDS+=       "gettext/0.19.7 --build-env --lib"
-DEPENDS+=       "zlib/1.2.5 --build-env --lib"
+DEPENDS+=       "zlib/1.2.8 --build-env --lib"
 DEPENDS+=       "glib/2.24.1 --build-env --lib"
 
 DESCRIPTION=	"ParaView is an open-source, multi-platform data analysis and visualization application. ParaView users can quickly build visualizations to analyze their data using qualitative and quantitative techniques."

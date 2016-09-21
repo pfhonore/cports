@@ -11,7 +11,7 @@ GNU_CONFIGURE=  yes
 
 # might want to add c-ares and ldap at some point
 DEPENDS+= "openssl/1.0.2h --lib"
-DEPENDS+= "zlib/1.2.5 --lib"
+DEPENDS+= "zlib/1.2.8 --lib"
 DEPENDS+= "libiconv/1.14 --lib"
 
 CONFIGURE_ARGS+= --with-iconv=$(PREFIX_libiconv)

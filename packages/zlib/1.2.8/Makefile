@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=	zlib
-VERSION=	1.2.6
+VERSION=	1.2.8
 CATEGORIES=	lib
 HOMEPAGE=	http://www.info-zip.org/pub/infozip/zlib/
 MASTER_SITES=	http://downloads.sourceforge.net/project/libpng/zlib/$(VERSION)/

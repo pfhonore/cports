@@ -13,7 +13,7 @@ DISTFILES+=	$(DISTNAME)_$(VERSION).tar.gz
 #MODULELINES=	"prepend-path PATH	$(PROGRAM_PREFIX)/bin"
 
 DEPENDS+=	"openmpi/1.4.3 --build-env openmpi/1.4.3 --run-env "
-DEPENDS+=	"zlib/1.2.5 --build-env --lib"
+DEPENDS+=	"zlib/1.2.8 --build-env --lib"
 
 HAS_CONFIGURE=	no
 

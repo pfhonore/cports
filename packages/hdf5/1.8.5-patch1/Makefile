@@ -9,7 +9,7 @@ MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 DISTFILES=	$(DISTNAME)-$(VERSION).tar.gz
 
-DEPENDS+=	"zlib/1.2.5 --lib --build-env"
+DEPENDS+=	"zlib/1.2.8 --lib --build-env"
 DEPENDS+=	"szip/2.1 --lib --build-env"
 
 CONFIGURE_ARGS= --with-default-api-version=v16 --with-szlib=$(PREFIX_szlib) --with-zlib=$(PREFIX_ZLIB) --enable-fortran  --enable-cxx

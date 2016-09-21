@@ -20,7 +20,7 @@ endif
 DEPENDS+= "gettext/0.19.7 --build-env --lib"
 DEPENDS+= "binutils/2.20  --build-env --lib"
 DEPENDS+= "fontconfig/2.8.0 --build-env --lib"
-DEPENDS+= "zlib/1.2.5 --build-env --lib"
+DEPENDS+= "zlib/1.2.8 --build-env --lib"
 DEPENDS+= "openmpi/1.4.3 --build-env --lib --run-env"
 DEPENDS+= "qt/4.7.0 --build-env --lib"
 DEPENDS+= "pdt/3.16 --build-env --lib"

@@ -14,7 +14,7 @@ EXTRAVERSION=
 DEPENDS+=       "bzip2/1.0.5 --lib --build-env"
 DEPENDS+=       "texinfo/6.1 --build-env"
 DEPENDS+=       "openssl/1.0.2h --lib --build-env"
-DEPENDS+=       "zlib/1.2.5 --lib --build-env"
+DEPENDS+=       "zlib/1.2.8 --lib --build-env"
 
 CONFIGURE_ARGS	+= ""
 
