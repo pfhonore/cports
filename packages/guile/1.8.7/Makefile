@@ -18,7 +18,7 @@ DEPENDS+=	"libiconv/1.14 --lib --build-env"
 DEPENDS+=	"texinfo/6.1 --build-env"
 DEPENDS+=	"ncurses/6.0 --lib --build-env"
 DEPENDS+=	"readline/6.1 --lib --build-env"
-DEPENDS+=	"libtool/2.2.10 --build-env"
+DEPENDS+=	"libtool/2.4.6 --build-env"
 
 #CONFIGURE_ARGS=	--with-glib-prefix=$(PREFIX_glib)
 #CONFIGURE_ARGS+=--with-gnome=$(PREFIX_gnome-libs)

@@ -25,7 +25,7 @@ DEPENDS+=	"m4/1.4.17 --build-env"
 DEPENDS+=	"gzip/1.4 --build-env"
 DEPENDS+=	"flex/2.5.35 --lib --build-env"
 DEPENDS+=	"gperf/3.0.4 --build-env"
-DEPENDS+=	"libtool/2.2.10 --build-env"
+DEPENDS+=	"libtool/2.4.6 --build-env"
 DEPENDS+=	"libiconv/1.14 --lib --build-env"
 
 CONFIGURE_ARGS=	--enable-shared=yes --enable-paths

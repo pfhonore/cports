@@ -19,7 +19,7 @@ DEPENDS+=	"gettext/0.19.7 --lib"
 DEPENDS+=	"openssl/1.0.0a --build-env"
 DEPENDS+=	"openssl/1.0.0a --lib"
 #DEPENDS+=	"perl/5.12.1 --build-env"
-DEPENDS+=	"libtool/2.2.10 --build-env"
+DEPENDS+=	"libtool/2.4.6 --build-env"
 #CONFIGURE_ARGS+= --with-ssl=$(PREFIX_openssl)
 endif # !BOOTSTRAP
 

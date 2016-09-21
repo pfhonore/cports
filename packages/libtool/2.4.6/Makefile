@@ -3,7 +3,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=	libtool
-VERSION=	2.2.10
+VERSION=	2.4.6
 CATEGORIES=	system
 HOMEPAGE=	http://www.gnu.org/software/libtool
 MASTER_SITES=	http://ftp.gnu.org/gnu/libtool
@@ -13,8 +13,8 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 
 EXTRAVERSION=
 
-ifndef BOOTSTRAP
 DEPENDS+=       "m4/1.4.17 --build-env"
+ifndef BOOTSTRAP
 DEPENDS+=       "gawk/3.1.8 --build-env"
 DEPENDS+=       "automake/1.11 --build-env"
 
