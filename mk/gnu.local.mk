@@ -25,7 +25,7 @@ ENVIRONMENT+= CXX=g++
 ENVIRONMENT+= F77=gfortran
 ENVIRONMENT+= F90=gfortran
 ENVIRONMENT+= FC=gfortran
-COMPILER_VERSION?= $(shell gcc -dumpversion)
+COMPILER_VERSION?= $(shell gcc -dumpversion|sed 's,4\.9.*,4.9,'|sed 's,5\..*,5,'|sed 's,6\..*,6,')
 ifeq (X$(COMPILER_VERSION),X)
 $(error cannot obtain compiler version)
 endif
