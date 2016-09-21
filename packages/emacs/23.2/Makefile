@@ -28,7 +28,7 @@ MODULELINES+=	"prepend-path INFOPATH	$(PROGRAM_PREFIX)/info"
 
 
 DEPENDS+=	"binutils/2.20 --build-env"
-DEPENDS+=	"texinfo/4.13 --build-env"
+DEPENDS+=	"texinfo/6.1 --build-env"
 DEPENDS+=	"libungif/4.1.4 --lib --build-env"
 DEPENDS+=	"fontconfig/2.8.0 --lib --build-env"
 DEPENDS+=	"libjpeg/8b --lib --build-env"

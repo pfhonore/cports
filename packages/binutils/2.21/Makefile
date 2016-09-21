@@ -8,7 +8,7 @@ MASTER_SITES=	$(MASTER_SITE_GNU:=$(DISTNAME)/)
 MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 
-DEPENDS+=       "texinfo/4.13 --build-env"
+DEPENDS+=       "texinfo/6.1 --build-env"
 
 CONFIGURE_ARGS+= --enable-shared
 

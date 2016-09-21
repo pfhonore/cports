@@ -30,7 +30,7 @@ DEPENDS+=       "netpbm/10.35.77 --build-env --lib"
 DEPENDS+=       "pango/1.28.1 --build-env --lib"
 DEPENDS+=       "pixman/0.18.2 --build-env --lib"
 DEPENDS+=	"poppler/0.14.1 --build-env --lib"
-DEPENDS+=       "texinfo/4.13 --build-env"
+DEPENDS+=       "texinfo/6.1 --build-env"
 
 DESCRIPTION=	"GtkGLExt is an OpenGL extension to GTK+."
 

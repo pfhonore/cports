@@ -16,7 +16,7 @@ DONT_CREATE_METAINFO=yes
 do-build:
 	(cd ../../ncurses/6.0/ && make install)
 	(cd ../../m4/1.4.17/ && make BOOTSTRAP=yes build)
-	(cd ../../texinfo/4.13/ && make BOOTSTRAP=yes build)
+	(cd ../../texinfo/6.1/ && make BOOTSTRAP=yes build)
 	(cd ../../gmake/3.81/ && make BOOTSTRAP=yes build)
 	(cd ../../wget/1.9.1/ && make BOOTSTRAP=yes build)
 	(cd ../../libiconv/1.13/ && make BOOTSTRAP=yes build)
@@ -25,7 +25,7 @@ do-build:
 
 do-install:
 	(cd ../../m4/1.4.17/ && make BOOTSTRAP=yes install)
-	(cd ../../texinfo/4.13/ && make BOOTSTRAP=yes install)
+	(cd ../../texinfo/6.1/ && make BOOTSTRAP=yes install)
 	(cd ../../gmake/3.81/ && make BOOTSTRAP=yes install)
 	(cd ../../wget/1.9.1/ && make BOOTSTRAP=yes install)
 	(cd ../../libiconv/1.13/ && make BOOTSTRAP=yes install)
@@ -35,7 +35,7 @@ do-install:
 do-cleaz:
 	(cd ../../ncurses/6.0/ && make clean)
 	(cd ../../m4/1.4.17/ && make clean)
-	(cd ../../texinfo/4.13/ && make clean)
+	(cd ../../texinfo/6.1/ && make clean)
 	(cd ../../gmake/3.81/ && make clean)
 	(cd ../../wget/1.9.1/ && make clean)
 	(cd ../../libiconv/1.13/ && make clean)

@@ -12,7 +12,7 @@ DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 EXTRAVERSION=
 
 DEPENDS+=       "bzip2/1.0.5 --lib --build-env"
-DEPENDS+=       "texinfo/4.13 --build-env"
+DEPENDS+=       "texinfo/6.1 --build-env"
 DEPENDS+=       "openssl/1.0.0a --lib --build-env"
 DEPENDS+=       "zlib/1.2.5 --lib --build-env"
 

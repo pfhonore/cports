@@ -31,7 +31,7 @@ DEPENDS+=       "netpbm/10.35.77 --build-env --lib"
 DEPENDS+=       "pango/1.28.1 --build-env --lib"
 DEPENDS+=       "pixman/0.18.2 --build-env --lib"
 DEPENDS+=	"poppler/0.14.1 --build-env --lib"
-DEPENDS+=       "texinfo/4.13 --build-env"
+DEPENDS+=       "texinfo/6.1 --build-env"
 DEPENDS+=	"gtkglext/1.2.0 --build-env --lib"
 
 DESCRIPTION=	"This is a GTK/OpenGL based program for displaying isolated molecules, periodic systems, and crystalline habits. It also acts as a GUI to packages such as GAMESS, GULP, and POVRay to provide energy minimizations and publication quality rendering."

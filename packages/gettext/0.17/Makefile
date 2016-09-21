@@ -9,7 +9,7 @@ MAINTAINER=     mpkg@e.kth.se
 GNU_CONFIGURE=  yes
 
 ifndef BOOTSTRAP
-DEPENDS+=        "texinfo/4.13 --build-env"
+DEPENDS+=        "texinfo/6.1 --build-env"
 DEPENDS+=       "libiconv --lib"
 DEPENDS+=	"gawk --build-env"
 endif

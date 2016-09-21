@@ -9,7 +9,7 @@ DISTFILES=
 
 DONT_CREATE_METAINFO=yes
 
-DEPENDS+=	"texinfo/4.13 --build-env"
+DEPENDS+=	"texinfo/6.1 --build-env"
 DEPENDS+=	"gmake/3.81 --build-env"
 DEPENDS+=	"wget/1.9.1 --build-env"
 DEPENDS+=	"libiconv/1.13 --lib --build-env"
@@ -21,7 +21,7 @@ DEPENDS+=	"automake/1.11 --build-env"
 DEPENDS+=	"openssl/1.0.0a --build-env"
 
 do-build:
-	(cd ../../texinfo/4.13/ && make build)
+	(cd ../../texinfo/6.1/ && make build)
 	(cd ../../gmake/3.81/ && make build)
 	(cd ../../wget/1.9.1/ && make build)
 	(cd ../../libiconv/1.13/ && make build)
@@ -29,7 +29,7 @@ do-build:
 	(cd ../../libtool/2.2.10/ && make build)
 
 do-install:
-	(cd ../../texinfo/4.13/ && make install)
+	(cd ../../texinfo/6.1/ && make install)
 	(cd ../../gmake/3.81/ && make install)
 	(cd ../../wget/1.9.1/ && make install)
 	(cd ../../libiconv/1.13/ && make install)
@@ -37,7 +37,7 @@ do-install:
 	(cd ../../libtool/2.2.10/ && make install)
 
 do-cleaz:
-	(cd ../../texinfo/4.13/ && make clean)
+	(cd ../../texinfo/6.1/ && make clean)
 	(cd ../../gmake/3.81/ && make clean)
 	(cd ../../wget/1.9.1/ && make clean)
 	(cd ../../libiconv/1.13/ && make clean)
