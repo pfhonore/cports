@@ -11,7 +11,7 @@ GNU_CONFIGURE=	yes
 #which wont work if you have /usr/lib/libdb1.*
 DEPENDS+=	"db/4.8.26 --lib --build-env"
 DEPENDS+=	"gawk/3.1.8 --build-env"
-DEPENDS+=	"gettext/0.18.1.1 --lib --build-env"
+DEPENDS+=	"gettext/0.19.7 --lib --build-env"
 DEPENDS+=	"libiconv/1.14 --lib --build-env"
 DEPENDS+=	"zlib/1.2.5 --lib --build-env"
 

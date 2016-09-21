@@ -13,7 +13,7 @@ DEPENDS+=	"texinfo/6.1 --build-env"
 DEPENDS+=	"gmake/4.1 --build-env"
 DEPENDS+=	"wget/1.17.1 --build-env"
 DEPENDS+=	"libiconv/1.14 --lib --build-env"
-DEPENDS+=	"gettext/0.18.1.1 --lib --build-env"
+DEPENDS+=	"gettext/0.19.7 --lib --build-env"
 DEPENDS+=	"libtool/2.2.10 --build-env"
 DEPENDS+=	"gawk/3.1.8 --build-env"
 DEPENDS+=	"m4/1.4.17 --build-env"
@@ -25,7 +25,7 @@ do-build:
 	(cd ../../gmake/4.1/ && make build)
 	(cd ../../wget/1.17.1/ && make build)
 	(cd ../../libiconv/1.14/ && make build)
-	(cd ../../gettext/0.18.1.1/ && make build)
+	(cd ../../gettext/0.19.7/ && make build)
 	(cd ../../libtool/2.2.10/ && make build)
 
 do-install:
@@ -33,7 +33,7 @@ do-install:
 	(cd ../../gmake/4.1/ && make install)
 	(cd ../../wget/1.17.1/ && make install)
 	(cd ../../libiconv/1.14/ && make install)
-	(cd ../../gettext/0.18.1.1/ && make install)
+	(cd ../../gettext/0.19.7/ && make install)
 	(cd ../../libtool/2.2.10/ && make install)
 
 do-cleaz:
@@ -41,7 +41,7 @@ do-cleaz:
 	(cd ../../gmake/4.1/ && make clean)
 	(cd ../../wget/1.17.1/ && make clean)
 	(cd ../../libiconv/1.14/ && make clean)
-	(cd ../../gettext/0.18.1.1/ && make clean)
+	(cd ../../gettext/0.19.7/ && make clean)
 	(cd ../../libtool/2.2.10/ && make clean)
 
 include ../../../mk/gnu.post.mk

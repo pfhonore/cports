@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=       gettext
-VERSION=        0.18.1.1
+VERSION=        0.19.7
 CATEGORIES=     lib
 HOMEPAGE=       http://www.gnu.org/software/gettext/gettext.html
 MASTER_SITES=   $(MASTER_SITE_GNU:=$(DISTNAME)/)

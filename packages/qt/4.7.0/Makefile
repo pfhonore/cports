@@ -25,7 +25,7 @@ DEPENDS+=       "sqlite/3.6.23.1 --build-env --lib"
 DEPENDS+=	"freetype/2.4.2 --build-env --lib"
 DEPENDS+=	"openssl/1.0.0a --build-env --lib"
 DEPENDS+=	"libiconv/1.14 --build-env --lib"
-DEPENDS+=	"gettext/0.18.1.1 --build-env --lib"
+DEPENDS+=	"gettext/0.19.7 --build-env --lib"
 DEPENDS+=	"zlib/1.2.5 --build-env --lib"
 DEPENDS+=	"glib/2.24.1 --build-env --lib"
 

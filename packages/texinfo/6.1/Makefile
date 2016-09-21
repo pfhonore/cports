@@ -9,7 +9,7 @@ MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 
 # Gettext depend on this packet.
-DEPENDS=	"gettext/0.18.1.1 --build-env --lib --cond"
+DEPENDS=	"gettext/0.19.7 --build-env --lib --cond"
 DEPENDS+=	"ncurses/6.0 --build-env --lib"
 
 INFO_FILE=	$(PROGRAM_PREFIX)/info/$(DISTNAME)

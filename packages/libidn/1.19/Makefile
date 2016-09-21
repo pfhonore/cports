@@ -10,7 +10,7 @@ GNU_CONFIGURE=	yes
 DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
 
 DEPENDS+=	"libiconv/1.14 --build-env --lib"
-DEPENDS+=	"gettext/0.18.1.1 --build-env --lib"
+DEPENDS+=	"gettext/0.19.7 --build-env --lib"
 
 EXTRAVERSION=
 

@@ -9,7 +9,7 @@ MAINTAINER=     jtang@tchpc.tcd.ie
 GNU_CONFIGURE=  yes
 
 DEPENDS+=       "bison/2.4.2 --build-env"
-DEPENDS+=       "gettext/0.18.1.1 --build-env --cond"
+DEPENDS+=       "gettext/0.19.7 --build-env --cond"
 
 CONFIGURE_ARGS= --with-included-gettext
 

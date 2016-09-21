@@ -13,8 +13,8 @@ CONFIGURE_ARGS=	--disable-nls
 #DEPENDS+=	"texinfo/6.1 --build-env"
 else
 USE_LIBTOOL=	yes
-DEPENDS+=	"gettext/0.18.1.1 --build-env"
-DEPENDS+=	"gettext/0.18.1.1 --lib"
+DEPENDS+=	"gettext/0.19.7 --build-env"
+DEPENDS+=	"gettext/0.19.7 --lib"
 #DEPENDS+=	"texinfo/6.1 --build-env"
 DEPENDS+=	"openssl/1.0.0a --build-env"
 DEPENDS+=	"openssl/1.0.0a --lib"

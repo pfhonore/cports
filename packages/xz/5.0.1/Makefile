@@ -10,7 +10,7 @@ GNU_CONFIGURE=	yes
 
 DEPENDS+=	"autoconf/2.67 --build-env"
 DEPENDS+=	"automake/1.11 --build-env"
-DEPENDS+=	"gettext/0.18.1.1 --build-env --lib"
+DEPENDS+=	"gettext/0.19.7 --build-env --lib"
 DEPENDS+=	"libtool/2.2.10 --build-env"
 
 DESCRIPTION=    "XZ Utils is free general-purpose data compression software with"

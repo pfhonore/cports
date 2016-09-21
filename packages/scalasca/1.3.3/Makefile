@@ -17,7 +17,7 @@ DEPENDS+= "papi/4.1.3  --build-env --lib --run-env"
 CPRT_SCALASCA_CONFIGURE_ARGS+= --with-papi=$(PREFIX_papi)
 endif
 
-DEPENDS+= "gettext/0.18.1.1 --build-env --lib"
+DEPENDS+= "gettext/0.19.7 --build-env --lib"
 DEPENDS+= "binutils/2.20  --build-env --lib"
 DEPENDS+= "fontconfig/2.8.0 --build-env --lib"
 DEPENDS+= "zlib/1.2.5 --build-env --lib"

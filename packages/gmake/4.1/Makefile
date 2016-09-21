@@ -12,7 +12,7 @@ GNU_CONFIGURE=	yes
 
 ifndef BOOTSTRAP
 # Use static libintl
-DEPENDS+=	"gettext/0.18.1.1 --build-env"
+DEPENDS+=	"gettext/0.19.7 --build-env"
 DEPENDS+=	"texinfo/6.1 --build-env"
 INCLUDE_PATHS+=	$(PREFIX_gettext)/include
 CONFIGURE_ENV+=	ac_cv_search_gettext="$(PREFIX_gettext)/lib/libintl.a"

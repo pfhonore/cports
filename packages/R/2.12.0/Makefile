@@ -22,7 +22,7 @@ DEPENDS+="libpng/1.2.42 --lib --build-env"
 DEPENDS+="libjpeg/8b --lib --build-env"
 DEPENDS+="libtiff/3.9.4 --lib --build-env"
 DEPENDS+="libiconv/1.14 --lib --build-env"
-DEPENDS+="gettext/0.18.1.1 --lib --build-env"
+DEPENDS+="gettext/0.19.7 --lib --build-env"
 
 DESCRIPTION=  "R is a free software environment for statistical computing and graphics."
 
