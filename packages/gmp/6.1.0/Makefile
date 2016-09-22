@@ -9,7 +9,7 @@ HOMEPAGE=	http://www.swox.com/gmp/
 MASTER_SITES=	ftp://ftp.gnu.org/gnu/gmp/
 MAINTAINER=	jtang@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
-DISTFILES = $(DISTNAME)-$(VERSION).tar.gz
+DISTFILES = $(DISTNAME)-$(VERSION).tar.bz2
 
 EXTRAVERSION=
 
