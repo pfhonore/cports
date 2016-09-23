@@ -21,30 +21,30 @@ DEPENDS+=       "automake/1.15 --build-env"
 DEPENDS+=       "openssl/1.0.2h --build-env"
 
 do-build:
-        (cd ../../m4/1.4.17/ && make build)
-        (cd ../../texinfo/6.1/ && make build)
-        (cd ../../gmake/4.1/ && make build)
-        (cd ../../wget/1.17.1/ && make build)
-        (cd ../../libiconv/1.14/ && make build)
-        (cd ../../gettext/0.19.7/ && make build)
-        (cd ../../libtool/2.4.6/ && make build)
+	(cd ../../m4/1.4.17/ && make build)
+	(cd ../../texinfo/6.1/ && make build)
+	(cd ../../gmake/4.1/ && make build)
+	(cd ../../wget/1.17.1/ && make build)
+	(cd ../../libiconv/1.14/ && make build)
+	(cd ../../gettext/0.19.7/ && make build)
+	(cd ../../libtool/2.4.6/ && make build)
 
 do-install:
-        (cd ../../m4/1.4.17/ && make install)
-        (cd ../../texinfo/6.1/ && make install)
-        (cd ../../gmake/4.1/ && make install)
-        (cd ../../wget/1.17.1/ && make install)
-        (cd ../../libiconv/1.14/ && make install)
-        (cd ../../gettext/0.19.7/ && make install)
-        (cd ../../libtool/2.4.6/ && make install)
+	(cd ../../m4/1.4.17/ && make install)
+	(cd ../../texinfo/6.1/ && make install)
+	(cd ../../gmake/4.1/ && make install)
+	(cd ../../wget/1.17.1/ && make install)
+	(cd ../../libiconv/1.14/ && make install)
+	(cd ../../gettext/0.19.7/ && make install)
+	(cd ../../libtool/2.4.6/ && make install)
 
 do-cleaz:
-        (cd ../../m4/1.4.17/ && make clean)
-        (cd ../../texinfo/6.1/ && make clean)
-        (cd ../../gmake/4.1/ && make clean)
-        (cd ../../wget/1.17.1/ && make clean)
-        (cd ../../libiconv/1.14/ && make clean)
-        (cd ../../gettext/0.19.7/ && make clean)
-        (cd ../../libtool/2.4.6/ && make clean)
+	(cd ../../m4/1.4.17/ && make clean)
+	(cd ../../texinfo/6.1/ && make clean)
+	(cd ../../gmake/4.1/ && make clean)
+	(cd ../../wget/1.17.1/ && make clean)
+	(cd ../../libiconv/1.14/ && make clean)
+	(cd ../../gettext/0.19.7/ && make clean)
+	(cd ../../libtool/2.4.6/ && make clean)
 
 include ../../../mk/gnu.post.mk
