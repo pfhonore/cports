@@ -19,7 +19,7 @@ do-build:
 	(cd ../../texinfo/6.1/ && make BOOTSTRAP=yes build)
 	(cd ../../gmake/4.1/ && make BOOTSTRAP=yes build)
 	(cd ../../wget/1.17.1/ && make BOOTSTRAP=yes build)
-	(cd ../../libiconv/1.14/ && make BOOTSTRAP=yes build)
+	(cd ../../libiconv/1.14/ && make BOOTSTRAP=yes build install)
 	(cd ../../gettext/0.19.7/ && make BOOTSTRAP=yes build)
 	(cd ../../libtool/2.4.6/ && make BOOTSTRAP=yes build install)
 	(cd ../../gawk/4.1.3/ && make BOOTSTRAP=yes build install)
