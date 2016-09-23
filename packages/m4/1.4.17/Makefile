@@ -10,6 +10,7 @@ MASTER_SITES=   $(MASTER_SITE_GNU:=$(DISTNAME)/)
 MAINTAINER=     jtang@tchpc.tcd.ie
 GNU_CONFIGURE=  yes
 
+DEPENDS=        "binutils/2.26.1 --build-env"
 #ifndef BOOTSTRAP
 #DEPENDS=        "gawk/4.1.3 --build-env"
 #CONFIGURE_ENV+= AWK=$(PREFIX_gawk)/bin/gawk
