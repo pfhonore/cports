@@ -12,6 +12,8 @@ GNU_CONFIGURE=  yes
 DISTFILES = $(DISTNAME)-$(VERSION).tar.bz2
 WRKSRC=$(WORKDIR)/$(PKGSUBDIR)-tmp/
 
+COMPILERS=gnu4.9
+
 EXTRAVERSION=
 
 DEPENDS += "zlib/1.2.8 --build-env --lib"
@@ -38,6 +40,9 @@ CONFIGURE_ARGS += --disable-multilib
 
 ALL_TARGET= bootstrap
 
+MODULEFILE_LINES+=      COMPILERS
+MODULEFILE_CMD_COMPILERS?= \
+        $(ECHO) "setenv  COMPILERS $(shell echo $(VERSION)|sed 's,4\.9.*,gnu4.9,'|sed 's,5\..*,gnu5,'|sed 's,6\..*,gnu6,')";
 
 DESCRIPTION=    "gcc 4.9.3 enviornment"
 
