@@ -26,7 +26,7 @@ do-build:
 	(cd ../../autoconf/2.69/ && make BOOTSTRAP=yes build install)
 	(cd ../../automake/1.15/ && make BOOTSTRAP=yes build)
 	(cd ../../bison/3.0.4/ && make BOOTSTRAP=yes build)
-	(cd ../../openssl/1.0.2h/ && make BOOTSTRAP=yes build)
+	(cd ../../openssl/1.0.2i/ && make BOOTSTRAP=yes build)
 
 
 do-install:
@@ -41,7 +41,7 @@ do-install:
 	(cd ../../autoconf/2.69/ && make BOOTSTRAP=yes install)
 	(cd ../../automake/1.15/ && make BOOTSTRAP=yes install)
 	(cd ../../bison/3.0.4/ && make BOOTSTRAP=yes install)
-	(cd ../../openssl/1.0.2h/ && make BOOTSTRAP=yes install)
+	(cd ../../openssl/1.0.2i/ && make BOOTSTRAP=yes install)
 
 do-cleaz:
 	(cd ../../ncurses/6.0/ && make clean)
@@ -56,7 +56,7 @@ do-cleaz:
 	(cd ../../autoconf/2.69/ && make clean)
 	(cd ../../automake/1.15/ && make clean)
 	(cd ../../bison/3.0.4/ && make clean)
-	(cd ../../openssl/1.0.2h/ && make clean)
+	(cd ../../openssl/1.0.2i/ && make clean)
 
 
 include ../../../mk/gnu.post.mk
