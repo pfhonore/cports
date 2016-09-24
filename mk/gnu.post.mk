@@ -1197,6 +1197,9 @@ MODULEFILE_CMD_PKGCONFIGPATH?= \
 	if $(TEST) -d $(PROGRAM_PREFIX)/lib/pkgconfig; then \
 		$(ECHO) "prepend-path PKG_CONFIG_PATH $(PROGRAM_PREFIX)/lib/pkgconfig"; \
 	fi;
+	if $(TEST) -d $(PROGRAM_PREFIX)/lib64/pkgconfig; then \
+		$(ECHO) "prepend-path PKG_CONFIG_PATH $(PROGRAM_PREFIX)/lib64/pkgconfig"; \
+	fi;
 MODULEFILE_CMD_INCLUDEPATH?= \
 	if $(TEST) -d $(PROGRAM_PREFIX)/include; then \
 		$(ECHO) "prepend-path INCLUDE_PATH $(PROGRAM_PREFIX)/include"; \
