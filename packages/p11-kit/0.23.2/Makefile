@@ -7,6 +7,8 @@ MASTER_SITES=	http://p11-glue.freedesktop.org/releases/ https://www.mirrorservic
 MAINTAINER=	Pierre-Francois,Honore@cea.fr
 GNU_CONFIGURE=	yes
 
+DEPENDS+= libtasn1/4.7 --build-env
+
 DESCRIPTION=	"Provides a way to load and enumerate PKCS#11 modules. Provides a standard configuration setup for installing PKCS#11 modules"
 
 CONFIGURE_ARGS+=
