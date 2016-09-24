@@ -16,7 +16,7 @@ DEPENDS+= gmp/6.1.0 --build-env
 DEPENDS+= libtasn1/4.7 --build-env
 DEPENDS+= libidn/1.32 --build-env
 DEPENDS+= p11-kit/0.23.2 --build-env
-#DEPENDS+= unbound/1.5.8 --build-env
+#DEPENDS+= unbound/1.5.9 --build-env
 
 
 DESCRIPTION=	"GnuTLS is a project that aims to develop a library which provides a secure layer, over a reliable transport layer."
