@@ -891,6 +891,14 @@ do-extrac%:
 				decompress_cmd="$(BUNZIP2)";			\
 				extract_cmd=none;				\
 			;;							\
+			*.tar.xz)						\
+				decompress_cmd="$(XZCAT)";			\
+				extract_cmd="$(TAR_EXTRACT)";			\
+			;;							\
+			*.xz)							\
+				decompress_cmd="$(XZUNZIP)";			\
+				extract_cmd=none;				\
+			;;							\
 			*.tar.Z)						\
 				decompress_cmd="$(COMPRESSCAT)";		\
 				extract_cmd="$(TAR_EXTRACT)";			\

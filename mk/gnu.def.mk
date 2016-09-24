@@ -81,6 +81,9 @@ GZCAT?=			$(GUNZIP) -c
 BZIP2?=			bzip2
 BUNZIP2?=		$(BZIP2) -d
 BZ2CAT?=		$(BUNZIP2) -c
+XZZIP?=			xz
+XZUNZIP?=		$(XZZIP) -d
+XZCAT?=			$(XZUNZIP) -c
 UNCOMPRESS?=		uncompress
 COMPRESSCAT?=		$(UNCOMPRESS) -c
 
