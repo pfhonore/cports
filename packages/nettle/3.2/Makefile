@@ -9,7 +9,8 @@ GNU_CONFIGURE=	yes
 
 #Commented out, because it will try to use the db-1.85-compat mode of db,
 #which wont work if you have /usr/lib/libdb1.*
-DEPENDS+=
+DEPENDS+= gmp/6.1.0 --build-env
+
 
 DESCRIPTION=	"low level cryptographic library (symmetric and one-way cryptos)"
 

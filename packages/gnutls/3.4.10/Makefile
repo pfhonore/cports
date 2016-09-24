@@ -12,6 +12,8 @@ DEPENDS+= "libgpg-error/1.21 --build-env"
 DEPENDS+= "libgcrypt/1.5.4 --build-env"
 DEPENDS+= "nettle/3.2 --build-env"
 DEPENDS+= "m4/1.4.17 --build-env"
+DEPENDS+= gmp/6.1.0 --build-env
+DEPENDS+= libtasn1/4.7 --build-env
 
 DESCRIPTION=	"GnuTLS is a project that aims to develop a library which provides a secure layer, over a reliable transport layer."
 
