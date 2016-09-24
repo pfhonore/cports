@@ -8,7 +8,7 @@ MAINTAINER=	darach@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 DISTFILES = $(DISTNAME)-$(VERSION).tar.xz
 
-DEPENDS+= "libgpg-error/1.9 --build-env"
+DEPENDS+= "libgpg-error/1.21 --build-env"
 DEPENDS+= "libgcrypt/1.4.6 --build-env"
 
 DESCRIPTION=	"GnuTLS is a project that aims to develop a library which provides a secure layer, over a reliable transport layer."
