@@ -3,7 +3,7 @@ include ../../../mk/gnu.pre.mk
 DISTNAME=	p11-kit
 VERSION=	0.23.2
 HOMEPAGE=	https://p11-glue.freedesktop.org/p11-kit.html
-MASTER_SITES=	http://p11-glue.freedesktop.org/releases/
+MASTER_SITES=	http://p11-glue.freedesktop.org/releases/ https://www.mirrorservice.org/sites/distfiles.macports.org/p11-kit/
 MAINTAINER=	Pierre-Francois,Honore@cea.fr
 GNU_CONFIGURE=	yes
 
