@@ -10,7 +10,7 @@ GNU_CONFIGURE=	yes
 DEPENDS+= libtasn1/4.7 --build-env
 DEPENDS+= libffi/3.2.1 --build-env
 
-DESCRIPTION=	"Provides a way to load and enumerate PKCS#11 modules. Provides a standard configuration setup for installing PKCS#11 modules"
+DESCRIPTION=	"Provides a way to load and enumerate PKCS11 modules. Provides a standard configuration setup for installing PKCS11 modules"
 
 CONFIGURE_ARGS+=
 
