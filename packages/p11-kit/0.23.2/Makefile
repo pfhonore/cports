@@ -3,7 +3,7 @@ include ../../../mk/gnu.pre.mk
 DISTNAME=	p11-kit
 VERSION=	0.23.2
 HOMEPAGE=	https://p11-glue.freedesktop.org/p11-kit.html
-MASTER_SITES=	0.23.2
+MASTER_SITES=	http://p11-glue.freedesktop.org/releases/
 MAINTAINER=	Pierre-Francois,Honore@cea.fr
 GNU_CONFIGURE=	yes
 
