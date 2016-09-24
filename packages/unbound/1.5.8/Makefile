@@ -11,8 +11,10 @@ DESCRIPTION=	"Unbound is a validating, recursive, and caching DNS resolver"
 
 DEPENDS+=       "nettle/3.2 --build-env"
 DEPENDS+=       "openssl/1.0.2i --build-env"
+DEPENDS+=       "expat/2.1.0 --build-env"
 
 CONFIGURE_ARGS+= --with-ssl=$(PREFIX_openssl)
 CONFIGURE_ARGS+= --with-nettle=$(PREFIX_nettle)
+CONFIGURE_ARGS+= --with-libexpat=$(PREFIX_expat)
 
 include ../../../mk/gnu.post.mk
