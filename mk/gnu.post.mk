@@ -1196,7 +1196,7 @@ MODULEFILE_CMD_PATH?= \
 MODULEFILE_CMD_PKGCONFIGPATH?= \
 	if $(TEST) -d $(PROGRAM_PREFIX)/lib/pkgconfig; then \
 		$(ECHO) "prepend-path PKG_CONFIG_PATH $(PROGRAM_PREFIX)/lib/pkgconfig"; \
-	fi;
+	fi;\
 	if $(TEST) -d $(PROGRAM_PREFIX)/lib64/pkgconfig; then \
 		$(ECHO) "prepend-path PKG_CONFIG_PATH $(PROGRAM_PREFIX)/lib64/pkgconfig"; \
 	fi;
