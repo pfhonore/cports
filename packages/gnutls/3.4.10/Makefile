@@ -3,7 +3,7 @@ include ../../../mk/gnu.pre.mk
 DISTNAME=	gnutls
 VERSION=	3.4.10
 HOMEPAGE=	http://www.gnu.org/software/gnutls/
-MASTER_SITES=	ftp://ftp.esat.net/pub/gnu/gnutls
+MASTER_SITES=	ftp://ftp.gnutls.org/gcrypt/gnutls/v3.4
 MAINTAINER=	darach@tchpc.tcd.ie
 GNU_CONFIGURE=	yes
 DISTFILES = $(DISTNAME)-$(VERSION).tar.bz2
