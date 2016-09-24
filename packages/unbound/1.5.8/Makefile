@@ -9,6 +9,10 @@ GNU_CONFIGURE=	yes
 
 DESCRIPTION=	"Unbound is a validating, recursive, and caching DNS resolver"
 
-CONFIGURE_ARGS+=
+DEPENDS+=       "nettle/3.2 --build-env"
+DEPENDS+=       "openssl/1.0.2i --build-env"
+
+CONFIGURE_ARGS+= --with-ssl=$(PREFIX_openssl)
+CONFIGURE_ARGS+= --with-nettle=$(PREFIX_nettle)
 
 include ../../../mk/gnu.post.mk
