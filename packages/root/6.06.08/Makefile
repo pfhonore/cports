@@ -14,6 +14,8 @@ DESCRIPTION+=   "HEP-specific foundation and utility classes such as "
 DESCRIPTION+=   "random generators, physics vectors, geometry and linear algebra."
 
 do-configure:
+
+ddo-configure:
         $(MODULE_ADD) $(BUILD_DEPENDS);   \
         cd $(WRKSRC); \
         $(MKDIR) ../BUILD ;\
@@ -23,12 +25,20 @@ do-configure:
 ## cmake -DCMAKE_INSTALL_PREFIX=/opt/ubuntu-1604.x86_64/gnu4.9/root/6.06.08 -DCMAKE_CXX_COMPILER=$(which g++)  -DCMAKE_C_COMPILER=$(which gcc) ../root
 
 do-build:
+
+ddo-build:
         $(MODULE_ADD) $(BUILD_DEPENDS);   \
         cd $(WRKSRC); \
         cd ../BUILD ;\
         $(MAKE)
 
 do-install:
+	$(MODULE_ADD) $(BUILD_DEPENDS);	\
+	cd $(WRKSRC); \
+	$(MKDIR) -p $(PROGRAM_PREFIX) && \
+	rsync -arx . $(PROGRAM_PREFIX)
+
+ddo-install:
         $(MODULE_ADD) $(BUILD_DEPENDS);   \
         cd $(WRKSRC); \
         cd ../BUILD ;\
