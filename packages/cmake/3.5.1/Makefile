@@ -13,4 +13,8 @@ EXTRAVERSION=
 
 DESCRIPTION=	"Make is a family of tools designed to build, test and package software."
 
+do-configure:
+	$(QUIET) $(MODULE_ADD) $(BUILD_DEPENDS);                        \
+        cd $(WRKSRC) && $(CONFIGURE_ENV) $(CONFIGURE_SCRIPT) --prefix=$(PROGRAM_PREFIX)
+
 include ../../../mk/gnu.post.mk
