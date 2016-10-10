@@ -6,7 +6,6 @@ CATEGORIES=     science cern
 HOMEPAGE=       http://root.cern.ch
 MASTER_SITES=   http://root.cern.ch/download
 MAINTAINER=     pierre-francois.honore@cea.fr
-GNU_CONFIGURE=  yes
 PKGSUBDIR=      $(DISTNAME)
 DISTFILES=      $(DISTNAME)_v$(VERSION).Linux-centos7-x86_64-gcc$(shell gcc --version|head -1|sed 's/.* //'|sed 's,4\.9.*,4.9,'|sed 's,5\..*,5,'|sed 's,6\..*,6,').tar.gz
 
@@ -21,6 +20,7 @@ do-configure:
         cd ../BUILD ;\
         cmake "-DCMAKE_INSTALL_PREFIX=$(PROGRAM_PREFIX)" \
         $(WRKSRC)
+## cmake -DCMAKE_INSTALL_PREFIX=/opt/ubuntu-1604.x86_64/gnu4.9/root/6.06.08 -DCMAKE_CXX_COMPILER=$(which g++)  -DCMAKE_C_COMPILER=$(which gcc) ../root
 
 do-build:
         $(MODULE_ADD) $(BUILD_DEPENDS);   \
