@@ -14,6 +14,7 @@ DESCRIPTION+=   "HEP-specific foundation and utility classes such as "
 DESCRIPTION+=   "random generators, physics vectors, geometry and linear algebra."
 
 do-configure:
+	touch toto
 
 ddo-configure:
         $(MODULE_ADD) $(BUILD_DEPENDS);   \
@@ -25,6 +26,7 @@ ddo-configure:
 ## cmake -DCMAKE_INSTALL_PREFIX=/opt/ubuntu-1604.x86_64/gnu4.9/root/6.06.08 -DCMAKE_CXX_COMPILER=$(which g++)  -DCMAKE_C_COMPILER=$(which gcc) ../root
 
 do-build:
+	rm toto
 
 ddo-build:
         $(MODULE_ADD) $(BUILD_DEPENDS);   \
