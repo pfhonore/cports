@@ -2,11 +2,17 @@
 # Always probe for /etc/redhat-release because many other distros use that
 # as a compatibility facade so don't trust it.
 
-if [ `uname -m` == "x86_64" ]; then
-   machine=x86_64
-else
-   machine=i386
-fi
+case $(uname -m) in
+	x86_64)
+  		machine='x86_64'
+		;;
+	i386)
+		machine='i386'
+		;;
+	*)
+		machine='unknown'
+		;;
+esac
 
 if [ -f "/etc/caos-release" ]; then
    release=`cat /etc/caos-release  | sed "s,.*Release \(.\).*,\\1,i"`
@@ -23,7 +29,13 @@ elif [ -f "/etc/redhat-release" ]; then
    echo "rhel-$release.$machine"
 elif [ -f "/etc/debian_version" ]; then
 	release=`cat /etc/debian_version | awk -F"." '{print $1}'`
-	echo "debian-$release.$machine"
+        ID='debian'
+        release=`cat /etc/debian_version | awk -F"." '{print $1}'`
+        if [ -f /etc/os-release ]; then
+                . /etc/os-release
+                release="$VERSION_ID"
+        fi
+        echo "$ID-$release.$machine"
 elif [ `uname` == "Darwin" ]; then
 	echo "darwin"
 elif [ -f "/etc/SuSE-release" ]; then
