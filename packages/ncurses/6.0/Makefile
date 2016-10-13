@@ -11,6 +11,8 @@ GNU_CONFIGURE=	yes
 #Framtida projekt.
 #CONFIGURE_ARGS+=	--with-gpm
 
+CONFIGURE_ENV+= AWK=gawk
+
 CONFIGURE_ARGS=	--enable-symlinks --with-shared --enable-termcap
 CONFIGURE_ARGS+=--with-manpage-format=normal
 
