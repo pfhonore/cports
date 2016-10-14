@@ -11,8 +11,8 @@ PKGSUBDIR=	$(DISTNAME)$(VERSION)
 
 DESCRIPTION=    "Geant4 : Neutron data files with thermal cross-sections"
 
-MODULEFILE_LINES+=      G4NEUTRONHPDATA
-MODULEFILE_CMD_G4NEUTRONHPDATA?= \
+MODULEFILE_LINES+=      SETENV
+MODULEFILE_CMD_SETENV?= \
         $(ECHO) "prepend-path   G4NEUTRONHPDATA $(PROGRAM_PREFIX)";
 
 do-build:
