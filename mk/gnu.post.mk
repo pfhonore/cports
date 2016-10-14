@@ -1344,6 +1344,8 @@ ifndef DONT_CREATE_METAINFO
 	$(QUIET) (								\
 	$(ECHO) "#%Module1.0";							\
 	$(ECHO) "module-whatis \"$(DISTNAME) version $(VERSION) (compiled with a $(COMPILERS) compiler)\""; \
+	 $(ECHO) "conflict $(MODULEFILE_CONFLICTS)";                            \
+	 $(ECHO) "conflict X$(INSERT_MODULEFILE_CONFLICTS)";                            \
 	if [ "X$(INSERT_MODULEFILE_CONFLICTS)" == "Xyes" ]; then                \
 	 $(ECHO) "conflict $(MODULEFILE_CONFLICTS)";                            \
 	fi; \
