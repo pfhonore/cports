@@ -9,10 +9,16 @@ MAINTAINER=     pierre-francois.honore@cea.fr
 DISTFILES=	$(DISTNAME).$(VERSION).tar.gz
 PKGSUBDIR=	$(DISTNAME)$(VERSION)
 
-DESCRIPTION=    "Neutron data files with thermal cross-sections Geant4"
+DESCRIPTION=    "Geant4 : Neutron data files with thermal cross-sections"
+
+MODULEFILE_LINES+=      G4NEUTRONHPDATA
+MODULEFILE_CMD_G4NEUTRONHPDATA?= \
+        $(ECHO) "prepend-path   G4NEUTRONHPDATA $(PROGRAM_PREFIX)";
 
 do-build:
+	: ok
 do-install:
+	$(MKDIR) -p $(PROGRAM_PREFIX) && \
 	rsync -arx . $(PROGRAM_PREFIX)
 
 include ../../../mk/gnu.post.mk
