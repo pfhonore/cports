@@ -18,6 +18,7 @@ MODULEFILE_CMD_SETENV?= \
 do-build:
 	: ok
 do-install:
+	cd $(WRKSRC) && \
 	$(MKDIR) -p $(PROGRAM_PREFIX) && \
 	rsync -arx . $(PROGRAM_PREFIX)
 
