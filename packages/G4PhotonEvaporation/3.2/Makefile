@@ -7,7 +7,7 @@ HOMEPAGE=       http://geant4.cern.ch
 MASTER_SITES=   http://geant4.cern.ch/support/source
 MAINTAINER=     pierre-francois.honore@cea.fr
 DISTFILES=	$(DISTNAME).$(VERSION).tar.gz
-PKGSUBDIR=	$(DISTNAME)$(VERSION)
+PKGSUBDIR=	$(shell echo $(DISTNAME)|sed 's/^G4//')$(VERSION)
 
 DESCRIPTION=    "Geant4 : Neutron data files with thermal cross-sections"
 
