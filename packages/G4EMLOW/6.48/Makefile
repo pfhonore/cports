@@ -13,7 +13,7 @@ DESCRIPTION=    "Geant4 : Neutron data files with thermal cross-sections"
 
 MODULEFILE_LINES+=      SETENV
 MODULEFILE_CMD_SETENV?= \
-        $(ECHO) "setenv G4NEUTRONHPDATA $(PROGRAM_PREFIX)";
+        $(ECHO) "setenv G4LEDATA $(PROGRAM_PREFIX)";
 
 do-build:
 	: ok
