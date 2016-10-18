@@ -14,6 +14,7 @@ DESCRIPTION=    "geant4 A Class Library for High Energy Physics"
 DEPENDS+=	"cmake/3.5.1 --build-env --run-env"
 DEPENDS+=	"gcc/4.9.3 --build-env --run-env"
 DEPENDS+=	"root/6.06.08 --build-env --run-env"
+CONFIGURE_ENV+=	"ROOTSYS=$(PREFIX_root)"
 DEPENDS+=	"clhep/2.3.1.1 --build-env --run-env"
 DEPENDS+=	"G4ABLA/3.0 --build-env --run-env"
 
@@ -23,10 +24,9 @@ extract: fetch $(EXTRACT_COOKIE) do-extract
 do-configure:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WRKSRC) && \
-	$(PREFIX_cmake)/bin/cmake -DCMAKE_INSTALL_PREFIX=$(PROGRAM_PREFIX) \
+	$(CONFIGURE_ENV) $(PREFIX_cmake)/bin/cmake -DCMAKE_INSTALL_PREFIX=$(PROGRAM_PREFIX) \
 		-DCMAKE_CXX_COMPILER=$(PREFIX_gcc)/bin/g++ -DCMAKE_C_COMPILER=$(PREFIX_gcc)/bin/gcc \
 		-DCLHEP_ROOT_DIR=$(PREFIX_clhep) \
-		-DROOT_DIR=$(PREFIX_root) \
 		../$(DISTNAME).$(VERSION)
 
 include ../../../mk/gnu.post.mk
