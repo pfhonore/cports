@@ -51,6 +51,7 @@ do-configure:
 		-DGEANT4_USE_NETWORKVRML=OFF \
 		-DGEANT4_BUILD_GRANULAR_LIBS=ON \
 		-DGEANT4_INSTALL_DATA=OFF \
+		-DGEANT4_BUILD_EXAMPLES=ON \
 		../$(DISTNAME).$(VERSION)
 
 include ../../../mk/gnu.post.mk
