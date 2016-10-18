@@ -13,6 +13,9 @@ DESCRIPTION=    "XML output extension to GCC"
 
 DEPENDS+=	"cmake/3.5.1 --build-env"
 
+extract: fetch $(EXTRACT_COOKIE) do-extract
+	cd $(SOURCEDIR) && mkdir -p $(PKGSUBDIR)
+
 do-configure:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WRKSRC) && \
