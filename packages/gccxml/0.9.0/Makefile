@@ -12,6 +12,8 @@ PKGSUBDIR=	gccxml-0.9.0+git20140716.orig
 
 DESCRIPTION=    "XML output extension to GCC"
 
+DEPENDS+=	"cmake/3.5.1 --build-env"
+
 do-configure:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WRKSRC) && \
