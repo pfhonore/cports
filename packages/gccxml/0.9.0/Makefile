@@ -19,7 +19,7 @@ extract: fetch $(EXTRACT_COOKIE) do-extract
 do-configure:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WRKSRC) && \
-	$(PREFIX_cmake)/bin/cmake -DCMAKE_INSTALL_PREFIX=$(PROGRAM_PREFIX) -DCMAKE_CXX_COMPILER=$(PREFIX_gcc)/bin/g++ -DCMAKE_C_COMPILER=$(PREFIX_gcc)/bin/gcc ../$(DISTNAME)-$(VERSION)+*.orig
+	$(PREFIX_cmake)/bin/cmake -DCMAKE_INSTALL_PREFIX=$(PROGRAM_PREFIX) ../$(DISTNAME)-$(VERSION)+*.orig
 
 include ../../../mk/gnu.post.mk
 
