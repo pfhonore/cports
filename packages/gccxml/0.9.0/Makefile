@@ -9,6 +9,7 @@ MAINTAINER=     Pierre-Francois.Honore@cea.fr
 GNU_CONFIGURE=  yes
 
 DISTFILES=	gccxml_0.9.0+git20140716.orig.tar.xz
+DISTNAME=	gccxml-0.9.0+git20140716.orig
 
 DESCRIPTION=    "XML output extension to GCC"
 
