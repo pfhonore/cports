@@ -16,7 +16,17 @@ DEPENDS+=	"gcc/4.9.3 --build-env --run-env"
 DEPENDS+=	"root/6.06.08 --build-env --run-env"
 CONFIGURE_ENV+=	ROOTSYS=$(PREFIX_root)
 DEPENDS+=	"clhep/2.3.1.1 --build-env --run-env"
-DEPENDS+=	"G4ABLA/3.0 --build-env --run-env"
+DEPENDS+=	"G4ABLA/3.0 --run-env"
+DEPENDS+=	"G4EMLOW/6.48 --run-env"
+DEPENDS+=	"G4ENSDFSTATE/1.2.3 --run-env"
+DEPENDS+=	"G4NDL/4.5 --run-env"
+DEPENDS+=	"G4NEUTRONXS/1.4 --run-env"
+DEPENDS+=	"G4PhotonEvaporation/3.2 --run-env"
+DEPENDS+=	"G4PII/1.3 --run-env"
+DEPENDS+=	"G4RadioactiveDecay/4.3.2 --run-env"
+DEPENDS+=	"G4SAIDDATA/1.1 --run-env"
+DEPENDS+=	"G4TENDL/1.0 --run-env"
+DEPENDS+=	"RealSurface/1.0 --run-env"
 
 extract: fetch $(EXTRACT_COOKIE) do-extract
 	cd $(SOURCEDIR) && mkdir -p $(PKGSUBDIR)
@@ -43,4 +53,3 @@ do-configure:
 		-DGEANT4_INSTALL_DATA=OFF \
 		../$(DISTNAME).$(VERSION)
 
-include ../../../mk/gnu.post.mk
