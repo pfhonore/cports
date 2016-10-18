@@ -27,6 +27,6 @@ do-configure:
 		-DCMAKE_CXX_COMPILER=$(PREFIX_gcc)/bin/g++ -DCMAKE_C_COMPILER=$(PREFIX_gcc)/bin/gcc \
 		-DCLHEP_ROOT_DIR=$(PREFIX_clhep) \
 		-DROOT_DIR=$(PREFIX_root) \
-		../$(DISTNAME)$(VERSION)
+		../$(DISTNAME).$(VERSION)
 
 include ../../../mk/gnu.post.mk
