@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=       geant4
-VERSION=	10.2.p02
+VERSION=	10.02.p02
 CATEGORIES=     science cern
 HOMEPAGE=       http://proj-clhep.web.cern.ch/proj-clhep
 MASTER_SITES=   http://geant4.cern.ch/support/source/
