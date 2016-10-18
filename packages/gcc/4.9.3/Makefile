@@ -38,6 +38,26 @@ CONFIGURE_ARGS += --disable-multilib
 
 ALL_TARGET= bootstrap
 
+MODULEFILE_LINES+=      CC
+MODULEFILE_CMD_CC?= \
+        $(ECHO) "setenv  CC $(PREFIX)/bin/gcc";
+
+MODULEFILE_LINES+=      CXX
+MODULEFILE_CMD_CXX?= \
+        $(ECHO) "setenv  CXX $(PREFIX)/bin/g++";
+
+MODULEFILE_LINES+=      FC
+MODULEFILE_CMD_FC?= \
+        $(ECHO) "setenv  FC $(PREFIX)/bin/gfortran";
+
+MODULEFILE_LINES+=      F77
+MODULEFILE_CMD_F77?= \
+        $(ECHO) "setenv  F77 $(PREFIX)/bin/gfortran";
+
+MODULEFILE_LINES+=      F90
+MODULEFILE_CMD_F90?= \
+        $(ECHO) "setenv  F90 $(PREFIX)/bin/gfortran";
+
 MODULEFILE_LINES+=      COMPILERS
 MODULEFILE_CMD_COMPILERS?= \
         $(ECHO) "setenv  COMPILERS $(shell echo $(VERSION)|sed 's,4\.9.*,gnu4.9,'|sed 's,5\..*,gnu5,'|sed 's,6\..*,gnu6,')";
