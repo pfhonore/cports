@@ -32,7 +32,7 @@ do-configure:
 		-DCMAKE_CXX_COMPILER=$(PREFIX_gcc)/bin/g++ -DCMAKE_C_COMPILER=$(PREFIX_gcc)/bin/gcc \
 		-DCLHEP_ROOT_DIR=$(PREFIX_clhep) \
 		-DGEANT4_USE_QT=ON \
-		-DQT_QMAKE_EXECUTABLE=/usr/bin/qmake
+		-DQT_QMAKE_EXECUTABLE=/usr/bin/qmake \
 		-DGEANT4_USE_GDML=ON \
 		-DXERCESC_ROOT_DIR=/usr \
 		-DGEANT4_USE_XM=ON \
