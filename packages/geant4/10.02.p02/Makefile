@@ -53,3 +53,4 @@ do-configure:
 		-DGEANT4_INSTALL_DATA=OFF \
 		../$(DISTNAME).$(VERSION)
 
+include ../../../mk/gnu.post.mk
