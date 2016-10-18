@@ -13,5 +13,10 @@ DISTNAME=	gccxml-0.9.0+git20140716.orig
 
 DESCRIPTION=    "XML output extension to GCC"
 
+do-configure:
+	$(MODULE_ADD) $(BUILD_DEPENDS);   \
+	cd $(WRKSRC) && \
+	$(PREFIX_cmake)/bin/cmake -DCMAKE_INSTALL_PREFIX=$(PROGRAM_PREFIX) -DCMAKE_CXX_COMPILER=$(PREFIX_gcc)/bin/g++ -DCMAKE_C_COMPILER=$(PREFIX_gcc)/bin/gcc ../$(VERSION)/CLHEP
+
 include ../../../mk/gnu.post.mk
 
