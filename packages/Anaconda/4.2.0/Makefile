@@ -21,12 +21,11 @@ INSTALL_ARGS += -f
 INSTALL_ARGS += -b -p $(PROGRAM_PREFIX)
 
 do-configure:
-        @
+	@
 
 do-install:
-        $(MODULE_ADD) $(BUILD_DEPENDS);   \
-        cd $(WORKDIR); \
-        /bin/sh $(DISTNAME)2-$(VERSION)-Linux-x86_64.sh $(INSTALL_ARGS)
+	$(MODULE_ADD) $(BUILD_DEPENDS);   \
+	cd $(WORKDIR); \
+	/bin/sh $(DISTNAME)2-$(VERSION)-Linux-x86_64.sh $(INSTALL_ARGS)
 
 include ../../../mk/gnu.post.mk
-
