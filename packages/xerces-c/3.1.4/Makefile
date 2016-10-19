@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=       xerces-c
-VERSION=        3.1.1
+VERSION=        3.1.4
 CATEGORIES=     library
 HOMEPAGE=       http://xerces.apache.org/xerces-c
 MASTER_SITES=   http://apache.crihan.fr/dist//xerces/c/3/sources/

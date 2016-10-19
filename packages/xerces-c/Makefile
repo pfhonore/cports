@@ -1,4 +1,4 @@
-CURRENT=4.1.3
+CURRENT=3.1.4
 
 include ../../mk/gnu.subdir.mk
 
