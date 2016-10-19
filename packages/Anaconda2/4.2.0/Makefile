@@ -26,6 +26,7 @@ do-configure:
 do-install:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WORKDIR); \
-	/bin/sh $(DISTNAME)-$(VERSION)-Linux-x86_64.sh $(INSTALL_ARGS)
+	chmod +x $(DISTNAME)-$(VERSION)-Linux-x86_64.sh && \
+	./$(DISTNAME)-$(VERSION)-Linux-x86_64.sh $(INSTALL_ARGS)
 
 include ../../../mk/gnu.post.mk
