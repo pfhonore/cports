@@ -11,7 +11,7 @@ DISTFILES=      $(DISTNAME).$(VERSION).tar.gz
 
 DESCRIPTION=    "geant4 A Class Library for High Energy Physics"
 
-DEPENDS+=	"xerces-c/3.1.4 --build-env"
+DEPENDS+=	"xerces-c/3.1.4 --build-env --lib"
 DEPENDS+=	"gccxml/0.9.0 --build-env --run-env"
 DEPENDS+=	"cmake/3.5.1 --build-env --run-env"
 DEPENDS+=	"gcc/4.9.3 --build-env --run-env"
