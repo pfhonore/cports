@@ -11,6 +11,7 @@ DISTFILES=      $(DISTNAME).$(VERSION).tar.gz
 
 DESCRIPTION=    "geant4 A Class Library for High Energy Physics"
 
+DEPENDS+=	"gccxml/0.9.0 --build-env --run-env"
 DEPENDS+=	"cmake/3.5.1 --build-env --run-env"
 DEPENDS+=	"gcc/4.9.3 --build-env --run-env"
 DEPENDS+=	"root/6.06.08 --build-env --run-env"
