@@ -12,7 +12,7 @@ DISTFILES =     $(DISTNAME)-$(VERSION)rc0-cp27-none-linux_x86_64.whl
 
 EXTRAVERSION=
 
-DEPENDS += "Anaconda/4.2.0 --build-env --run-env"
+DEPENDS += "Anaconda2/4.2.0 --build-env --run-env"
 
 DO_RUN_TESTS=no
 
