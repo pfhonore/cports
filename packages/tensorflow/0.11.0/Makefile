@@ -16,9 +16,9 @@ DEPENDS += "Anaconda2/4.2.0 --build-env --run-env"
 
 DO_RUN_TESTS=no
 
-DESCRIPTION=    "TensorFlow is an open source software library for numerical computation using data flow graphs."
-DESCRIPTION+=	" Nodes in the graph represent mathematical operations, while the graph edges represent the"
-DESCRIPTION+=	" multidimensional data arrays (tensors) communicated between them."
+#DESCRIPTION=    "TensorFlow is an open source software library for numerical computation using data flow graphs."
+#DESCRIPTION+=	" Nodes in the graph represent mathematical operations, while the graph edges represent the"
+#DESCRIPTION+=	" multidimensional data arrays (tensors) communicated between them."
 
 do-fetch:
 	@
@@ -27,16 +27,18 @@ do-extract:
 	@
 
 do-configure:
-	@
+	$(MODULE_ADD) $(BUILD_DEPENDS);   \
+	cd $(WORKDIR); \
+	bash -c 'conda create -n tensorflow python=2.7 -y'
 
 do-install:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WORKDIR); \
-	bash -c 'conda create -n tensorflow python=2.7 -y && \
-	. i$(PREFIX_Anaconda2)/activate tensorflow; \
+	bash -c '\
+	. i$(PREFIX_Anaconda2)/activate tensorflow && \
 	conda install -c conda-forge tensorflow -y && \
-	. $(PREFIX_Anaconda2)/bin/activate tensorflow && \
-	pip install --ignore-installed --upgrade'
+	pip install --ignore-installed --upgrade $(MASTER_SITES)/$(DISTFILES)\
+	'
 
 include ../../../mk/gnu.post.mk
 
