@@ -36,7 +36,6 @@ do-install:
 	source activate tensorflow; \
 	conda install -c conda-forge tensorflow -y && \
 	source $(PREFIX_Anaconda2)/bin/activate tensorflow && \
-	pip install --ignore-installed --upgrade && \
-	source $(PREFIX_Anaconda2)/bin/deactivate
+	pip install --ignore-installed --upgrade
 
 include ../../../mk/gnu.post.mk
