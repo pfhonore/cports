@@ -14,6 +14,7 @@ TF_BINARY_URL=	$(MASTER_SITES)/$(DISTFILES)
 EXTRAVERSION=
 
 DEPENDS += "Anaconda2/4.2.0 --build-env --run-env"
+PROGRAM_PREFIX=	$(PREFIX_Anaconda2)/envs/$(DISTNAME)
 
 DO_RUN_TESTS=no
 
