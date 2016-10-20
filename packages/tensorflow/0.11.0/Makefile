@@ -32,10 +32,11 @@ do-configure:
 do-install:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WORKDIR); \
-	conda create -n tensorflow python=2.7 -y && \
+	bash -c 'conda create -n tensorflow python=2.7 -y && \
 	. i$(PREFIX_Anaconda2)/activate tensorflow; \
 	conda install -c conda-forge tensorflow -y && \
 	. $(PREFIX_Anaconda2)/bin/activate tensorflow && \
-	pip install --ignore-installed --upgrade
+	pip install --ignore-installed --upgrade'
 
 include ../../../mk/gnu.post.mk
+
