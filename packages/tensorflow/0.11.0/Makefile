@@ -1,7 +1,7 @@
 include ../../../mk/gnu.pre.mk
 
 DISTNAME=       tensorflow
-VERSION=        0.9.0
+VERSION=        0.11.0
 CATEGORIES=     scripting
 HOMEPAGE=       https://www.tensorflow.org/
 MASTER_SITES=   https://storage.googleapis.com/tensorflow/linux/cpu/
