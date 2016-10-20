@@ -35,7 +35,7 @@ do-install:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WORKDIR); \
 	bash -c '\
-	. $(PREFIX_Anaconda2)/activate tensorflow && \
+	. $(PREFIX_Anaconda2)/bin/activate tensorflow && \
 	conda install -c conda-forge tensorflow -y && \
 	pip install --ignore-installed --upgrade $(MASTER_SITES)/$(DISTFILES)\
 	'
