@@ -12,6 +12,8 @@ DISTFILES =     $(DISTNAME)-$(VERSION)-Linux-x86_64.sh
 
 EXTRAVERSION=
 
+DEPENDS += "gawk/4.1.3 --build-env --run-env"
+
 DO_RUN_TESTS=no
 
 DESCRIPTION=    "Anaconda is a completely free Python distribution including for commercial use and redistribution."
