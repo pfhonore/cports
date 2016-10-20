@@ -12,6 +12,8 @@ DISTFILES =     $(DISTNAME)-$(VERSION)rc0-cp27-none-linux_x86_64.whl
 
 EXTRAVERSION=
 
+DEPENDS += "Anaconda/4.2.0 --build-env --run-env"
+
 DO_RUN_TESTS=no
 
 DESCRIPTION=    "TensorFlow is an open source software library for numerical computation using data flow graphs."
