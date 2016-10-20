@@ -18,7 +18,7 @@ DO_RUN_TESTS=no
 
 DESCRIPTION=    "TensorFlow is an open source software library for numerical computation using data flow graphs."
 DESCRIPTION+=	" Nodes in the graph represent mathematical operations, while the graph edges represent the"
-DESCRIPTION+=	" multidimensional data arrays (tensors) communicated between them.
+DESCRIPTION+=	" multidimensional data arrays (tensors) communicated between them."
 
 do-fetch:
 	@
