@@ -9,6 +9,7 @@ MAINTAINER=     Pierre-Francois.Honore@cea.fr
 GNU_CONFIGURE=  no
 NO_BUILD=       yes
 DISTFILES =     $(DISTNAME)-$(VERSION)rc0-cp27-none-linux_x86_64.whl
+TF_BINARY_URL=	$(MASTER_SITES)/$(DISTFILES)
 
 EXTRAVERSION=
 
@@ -35,9 +36,8 @@ do-install:
 	$(MODULE_ADD) $(BUILD_DEPENDS);   \
 	cd $(WORKDIR); \
 	bash -c '\
-	. $(PREFIX_Anaconda2)/bin/activate tensorflow && \
-	conda install -c conda-forge tensorflow -y && \
-	pip install --ignore-installed --upgrade $(MASTER_SITES)/$(DISTFILES)\
+	source $(PREFIX_Anaconda2)/bin/activate tensorflow && \
+	conda install -c conda-forge tensorflow -y \
 	'
 
 include ../../../mk/gnu.post.mk
