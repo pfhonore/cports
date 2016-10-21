@@ -12,7 +12,7 @@ ifndef BOOTSTRAP
 DEPENDS+=        "texinfo/6.1 --build-env"
 DEPENDS+=       "libiconv --lib"
 DEPENDS+=	"gawk --build-env"
-DEPENDS+=	"libxml2 --build-env"
+DEPENDS+=	"libxml2/2.9.3 --build-env"
 endif
 
 CONFIGURE_ARGS= --with-pic
