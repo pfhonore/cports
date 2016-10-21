@@ -15,9 +15,9 @@ DONT_CREATE_METAINFO=yes
 
 do-build:
 	(cd ../../ncurses/6.0/ && make install)
+	(cd ../../texinfo/6.1/ && make BOOTSTRAP=yes build install)
 	(cd ../../binutils/2.26.1/ && make BOOTSTRAP=yes build install)
 	(cd ../../m4/1.4.17/ && make BOOTSTRAP=yes build install)
-	(cd ../../texinfo/6.1/ && make BOOTSTRAP=yes build install)
 	(cd ../../gmake/4.1/ && make BOOTSTRAP=yes build)
 	(cd ../../wget/1.17.1/ && make BOOTSTRAP=yes build)
 	(cd ../../libiconv/1.14/ && make BOOTSTRAP=yes build install)
