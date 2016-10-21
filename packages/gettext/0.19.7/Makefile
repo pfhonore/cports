@@ -18,6 +18,7 @@ endif
 CONFIGURE_ARGS= --with-pic
 CONFIGURE_ARGS+=--with-included-gettext # :-)
 CONFIGURE_ARGS+=--with-libiconv-prefix=$(PREFIX_libiconv)
+CONFIGURE_ARGS+=--with-libxml2-prefix=$(PREFIX_libxml2)
 
 LINK_PATHS+=    $(PROGRAM_PREFIX)/lib
 
